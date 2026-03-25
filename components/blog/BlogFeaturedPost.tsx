@@ -5,7 +5,7 @@ import type { BlogPostPreview } from "@/lib/content/blog-posts";
 export function BlogFeaturedPost({ post }: { post: BlogPostPreview }) {
   return (
     <div className="relative">
-      <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+      <p className="mb-5 text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-zinc-400">
         Featured
       </p>
       <PremiumCard
@@ -16,10 +16,10 @@ export function BlogFeaturedPost({ post }: { post: BlogPostPreview }) {
           <span className="inline-flex w-fit rounded-full bg-zinc-900 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">
             {post.category}
           </span>
-          <h2 className="mt-4 text-2xl font-semibold leading-tight tracking-tight text-zinc-900 sm:text-3xl lg:text-4xl">
+          <h2 className="mt-4 font-serif text-2xl font-semibold leading-tight tracking-tight text-zinc-900 sm:text-3xl lg:text-4xl">
             {post.title}
           </h2>
-          <p className="mt-3 max-w-2xl text-base leading-relaxed text-zinc-700 sm:text-lg">
+          <p className="mt-4 max-w-2xl text-base leading-[1.75] text-zinc-700 sm:text-lg">
             {post.excerpt}
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-zinc-600">

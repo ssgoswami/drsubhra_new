@@ -14,7 +14,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog | Study Abroad, Research & Career Guidance",
   description:
-    "Articles and guidance for Masters, PhD, and Postdoc applications abroad—documents, research-fit strategy, and practical career direction.",
+    "Articles and guidance for Masters, PhD, and Postdoc applications abroad-documents, research-fit strategy, and practical career direction.",
   alternates: {
     canonical: "/blog",
   },
@@ -27,21 +27,25 @@ export default function BlogPage() {
 
   return (
     <PageMain>
-      <Section className="border-b border-zinc-200 bg-white">
-        <Container className="py-16 sm:py-20 lg:py-24">
+      <Section className="relative overflow-hidden border-b border-zinc-200 bg-gradient-to-b from-white to-zinc-50">
+        <div
+          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_50%_-10%,rgba(24,24,27,0.04),transparent)]"
+          aria-hidden
+        />
+        <div className="pattern-dots-light pointer-events-none absolute inset-0" aria-hidden />
+        <Container className="relative py-20 sm:py-24 lg:py-28">
           <PageIntro
             badge="Blog"
             title="Insights on study abroad, research, and career direction"
             description="Articles, guidance notes, and practical frameworks for students planning higher studies and global academic careers."
             wrapperClassName="max-w-3xl"
             titleClassName="text-4xl sm:text-5xl md:text-6xl"
-            descriptionClassName=""
           />
         </Container>
       </Section>
 
       <Section aria-labelledby="featured-heading">
-        <Container className="py-12 sm:py-16 lg:py-20">
+        <Container className="py-16 sm:py-20 lg:py-24">
           <h2 id="featured-heading" className="sr-only">
             Featured article
           </h2>

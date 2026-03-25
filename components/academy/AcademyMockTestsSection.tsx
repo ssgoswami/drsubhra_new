@@ -17,13 +17,13 @@ export function AcademyMockTestsSection({ items }: { items: AcademyMockTest[] })
           <SectionHeading
             eyebrow="Mock tests"
             title="Practice that respects the real exam"
-            description="From school levels to competitive entrances—timed mocks and clear feedback loops as each track goes live."
+            description="From school levels to competitive entrances-timed mocks and clear feedback loops as each track goes live."
           />
           <Button href={routes.contact} variant="secondary" className="shrink-0 self-start lg:self-auto">
             Enquire about mocks
           </Button>
         </div>
-        <ul className="mt-12 grid list-none gap-4 p-0 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+        <ul className="mt-12 grid list-none gap-4 p-0 sm:grid-cols-3 lg:grid-cols-5">
           {items.map((test) => (
             <li key={test.slug}>
               <AcademyOfferCard

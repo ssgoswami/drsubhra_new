@@ -4,23 +4,25 @@
  */
 export const ds = {
   /** Small caps label above headings — neutral */
-  eyebrow: "text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500",
+  eyebrow: "text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-zinc-500",
   /** Small caps label — Mentorship accent (indigo) */
-  eyebrowMentorship: "text-xs font-semibold uppercase tracking-[0.2em] text-indigo-600",
+  eyebrowMentorship: "text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-indigo-600",
   /** Small caps label — Academy accent (teal) */
-  eyebrowAcademy: "text-xs font-semibold uppercase tracking-[0.2em] text-teal-600",
+  eyebrowAcademy: "text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-teal-600",
   /** Primary page hero H1 — serif editorial */
   display:
-    "font-serif text-3xl font-semibold leading-tight tracking-tight text-balance text-zinc-900 sm:text-4xl md:text-5xl lg:text-6xl",
+    "font-serif text-3xl font-semibold leading-[1.05] tracking-tight text-balance text-zinc-900 sm:text-4xl md:text-5xl lg:text-6xl",
   /** Standard inner-page H1 (contact, booking, etc.) — serif editorial */
   pageTitle:
-    "font-serif text-3xl font-semibold leading-tight tracking-tight text-balance text-zinc-900 sm:text-4xl lg:text-5xl",
-  /** Section titles (H2) — sans, functional */
+    "font-serif text-3xl font-semibold leading-[1.1] tracking-tight text-balance text-zinc-900 sm:text-4xl lg:text-5xl",
+  /** Section titles (H2) — serif, editorial */
   heading2:
-    "text-3xl font-semibold tracking-tight text-balance text-zinc-900 sm:text-4xl",
-  heading2Tight: "mt-2",
+    "font-serif text-3xl font-semibold leading-tight tracking-tight text-balance text-zinc-900 sm:text-4xl",
+  heading2Tight: "mt-3",
+  /** Card and sub-section titles (H3) — serif */
+  cardTitle: "font-serif text-xl font-semibold leading-snug tracking-tight text-zinc-900",
   /** Intro / lead paragraph under titles */
-  lead: "text-base leading-relaxed text-pretty text-zinc-700 sm:text-lg",
+  lead: "text-base leading-[1.75] text-pretty text-zinc-700 sm:text-lg",
   leadMaxWidth: "max-w-xl",
   /** Standard vertical rhythm inside sections */
   sectionY: "py-12 sm:py-16 lg:py-20",

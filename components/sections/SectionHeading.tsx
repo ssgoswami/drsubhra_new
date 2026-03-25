@@ -27,7 +27,7 @@ export function SectionHeading({
         {title}
       </h2>
       {description ? (
-        <div className={`mt-3 ${ds.lead}`}>{description}</div>
+        <div className={`mt-4 ${ds.lead}`}>{description}</div>
       ) : null}
     </div>
   );

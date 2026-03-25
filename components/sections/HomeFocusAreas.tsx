@@ -9,7 +9,7 @@ const areas = [
   {
     title: "Study Abroad Mentorship",
     description:
-      "Masters, PhD, and Postdoc—strategy, documents, and execution support with clear scope and timelines.",
+      "Masters, PhD, and Postdoc-strategy, documents, and execution support with clear scope and timelines.",
     href: routes.mentorship,
     cta: "View mentorship",
   },
@@ -23,14 +23,14 @@ const areas = [
   {
     title: "Mock Tests",
     description:
-      "Structured practice for school and entrance exams—rigorous, feedback-oriented preparation.",
+      "Structured practice for school and entrance exams-rigorous, feedback-oriented preparation.",
     href: routes.academy,
     cta: "Coming to Academy",
   },
   {
     title: "Career Guidance",
     description:
-      "Direction on pathways, programmes, and outcomes—so decisions are informed, not improvised.",
+      "Direction on pathways, programmes, and outcomes-so decisions are informed, not improvised.",
     href: routes.academy,
     cta: "Learn more",
   },
@@ -43,7 +43,7 @@ export function HomeFocusAreas() {
         <SectionHeading
           eyebrow="Focus areas"
           title="Where I can support you"
-          description="Mentorship and Academy stay distinct—choose the path that matches your goal."
+          description="Mentorship and Academy stay distinct-choose the path that matches your goal."
         />
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           {areas.map((area) => (
@@ -52,18 +52,18 @@ export function HomeFocusAreas() {
               as="div"
               className="group flex flex-col border-zinc-200/90 transition hover:shadow-md"
             >
-              <h3 className="text-lg font-semibold text-zinc-900">
+              <h3 className="font-serif text-xl font-semibold leading-snug tracking-tight text-zinc-900">
                 {area.title}
               </h3>
-              <p className="mt-2 flex-1 text-sm leading-relaxed text-zinc-700">
+              <p className="mt-3 flex-1 text-sm leading-relaxed text-zinc-700">
                 {area.description}
               </p>
               <Link
                 href={area.href}
-                className="mt-5 inline-flex text-sm font-semibold text-zinc-900 underline-offset-4 transition group-hover:underline"
+                className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-zinc-900 underline-offset-4 transition group-hover:underline"
               >
                 {area.cta}
-                <span aria-hidden className="ml-1">
+                <span aria-hidden className="ml-0.5 transition-transform group-hover:translate-x-0.5">
                   →
                 </span>
               </Link>

@@ -36,6 +36,7 @@ export function PageIntro({
       </h1>
       <div
         className={[
+          "mx-auto",
           ds.leadMaxWidth,
           ds.lead,
           descriptionClassName,

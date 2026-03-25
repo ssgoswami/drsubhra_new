@@ -17,10 +17,10 @@ export function AcademyOfferCard({
   return (
     <PremiumCard
       as="div"
-      className="flex h-full flex-col border-zinc-200/90 transition hover:border-zinc-300 hover:shadow-md"
+      className="flex h-full flex-col border-zinc-200/90 transition hover:border-teal-200 hover:shadow-md"
     >
       <div className="flex items-start justify-between gap-2">
-        <h3 className="text-lg font-semibold text-zinc-900">{title}</h3>
+        <h3 className="font-serif text-lg font-semibold leading-snug tracking-tight text-zinc-900">{title}</h3>
         {badge}
       </div>
       <p className="mt-2 flex-1 text-sm leading-relaxed text-zinc-700">

@@ -3,24 +3,24 @@ import type { ReactNode } from "react";
 
 const variants = {
   primary:
-    "inline-flex items-center justify-center rounded-md bg-zinc-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-zinc-800 hover:shadow",
+    "inline-flex items-center justify-center rounded-lg bg-zinc-900 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-zinc-800",
   secondary:
-    "inline-flex items-center justify-center rounded-md border border-zinc-300 bg-white px-4 py-2.5 text-sm font-semibold text-zinc-800 shadow-sm transition hover:border-zinc-400 hover:bg-zinc-50 hover:shadow-sm",
+    "inline-flex items-center justify-center rounded-lg border border-zinc-200 bg-white px-5 py-3 text-sm font-semibold text-zinc-800 shadow-sm transition hover:border-zinc-300 hover:bg-zinc-50",
   ghost:
     "inline-flex items-center justify-center rounded-md px-3 py-2 text-sm font-medium text-zinc-600 transition hover:bg-zinc-100 hover:text-zinc-900",
   navCta:
-    "inline-flex items-center justify-center rounded-md bg-zinc-900 px-4 py-2.5 text-sm font-semibold text-white shadow-md transition hover:bg-zinc-800 hover:shadow-lg sm:px-5",
+    "inline-flex items-center justify-center rounded-md bg-zinc-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-zinc-800 sm:px-5",
   /** Mentorship primary CTA — indigo, advisory */
   mentorshipCta:
-    "inline-flex items-center justify-center rounded-md bg-indigo-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-600 hover:shadow sm:px-5",
+    "inline-flex items-center justify-center rounded-lg bg-indigo-700 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-600 sm:px-6",
   /** Academy primary CTA — teal, educational */
   academyCta:
-    "inline-flex items-center justify-center rounded-md bg-teal-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-teal-600 hover:shadow sm:px-5",
+    "inline-flex items-center justify-center rounded-lg bg-teal-700 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-teal-600 sm:px-6",
   /** For dark backgrounds (e.g. footer CTA band) */
   onDark:
-    "inline-flex items-center justify-center rounded-md bg-white px-4 py-2.5 text-sm font-semibold text-zinc-900 shadow-sm transition hover:bg-zinc-100",
+    "inline-flex items-center justify-center rounded-lg bg-white px-5 py-3 text-sm font-semibold text-zinc-900 shadow-sm transition hover:bg-zinc-100",
   onDarkOutline:
-    "inline-flex items-center justify-center rounded-md border border-zinc-500 bg-transparent px-4 py-2.5 text-sm font-semibold text-white transition hover:border-zinc-400 hover:bg-white/10",
+    "inline-flex items-center justify-center rounded-lg border border-white/30 bg-transparent px-5 py-3 text-sm font-semibold text-white transition hover:border-white/50 hover:bg-white/10",
   onDarkGhost:
     "inline-flex items-center justify-center rounded-md px-4 py-2.5 text-sm font-semibold text-zinc-300 transition hover:bg-white/10 hover:text-white",
 } as const;

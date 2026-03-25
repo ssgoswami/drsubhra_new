@@ -13,7 +13,7 @@ const milestones = [
   },
   {
     title: "Postdoctoral fellow",
-    detail: "Harvard Medical School, USA — Margarita Salas fellowship",
+    detail: "Harvard Medical School, Harvard University, USA",
   },
   {
     title: "Earlier research roles",
@@ -29,24 +29,29 @@ export function HomeCredibility() {
           align="center"
           eyebrow="Credibility"
           title="Background you can verify"
-          description="A track record in research and international academia—aligned with how I mentor applicants today."
+          description="A track record in research and international academia-aligned with how I mentor applicants today."
         />
         <ul className="mx-auto mt-12 grid max-w-4xl gap-4 sm:grid-cols-2">
           {milestones.map((item) => (
             <li
               key={item.title}
-              className="rounded-xl border border-zinc-200 bg-white px-5 py-4 shadow-sm"
+              className="flex overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm ring-1 ring-zinc-900/[0.04]"
             >
-              <p className="text-sm font-semibold text-zinc-900">{item.title}</p>
-              <p className="mt-1 text-sm leading-relaxed text-zinc-600">
-                {item.detail}
-              </p>
+              <div className="w-1 shrink-0 bg-indigo-200" aria-hidden />
+              <div className="flex-1 px-6 py-5">
+                <p className="font-serif text-base font-semibold leading-snug text-zinc-900">
+                  {item.title}
+                </p>
+                <p className="mt-1.5 text-sm leading-relaxed text-zinc-600">
+                  {item.detail}
+                </p>
+              </div>
             </li>
           ))}
         </ul>
-        <p className="mx-auto mt-8 max-w-2xl text-center text-sm text-zinc-600">
+        <p className="mx-auto mt-10 max-w-2xl text-center text-sm leading-relaxed text-zinc-600">
           Mentoring emphasis: STEM, applied science, engineering, computer
-          science, and related fields—structured guidance, not informal
+          science, and related fields-structured guidance, not informal
           profile reviews in chat.
         </p>
       </Container>

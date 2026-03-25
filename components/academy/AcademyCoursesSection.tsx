@@ -31,7 +31,7 @@ export function AcademyCoursesSection({ courses }: { courses: AcademyCourse[] })
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <SectionHeading
             eyebrow="Courses"
-            title="Deep programmes — methodology to cutting-edge tech"
+            title="Deep programmes - methodology to cutting-edge tech"
             description="Flagship course lines designed for serious learners. More modules and cohorts will layer in here over time."
           />
           <Button href={routes.contact} variant="secondary" className="shrink-0 self-start lg:self-auto">
@@ -55,7 +55,7 @@ export function AcademyCoursesSection({ courses }: { courses: AcademyCourse[] })
                   {course.highlights.map((h) => (
                     <li
                       key={h}
-                      className="rounded-md border border-zinc-200 bg-white px-2 py-1 text-xs font-medium text-zinc-600"
+                      className="rounded-md border border-teal-100 bg-teal-50/70 px-2 py-1 text-xs font-medium text-teal-700"
                     >
                       {h}
                     </li>

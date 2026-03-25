@@ -28,7 +28,7 @@ export async function submitContactForm(
   _prevState: ContactFormState,
   formData: FormData,
 ): Promise<ContactFormState> {
-  // Honeypot — leave empty
+  // Honeypot - leave empty
   const trap = String(formData.get("company") ?? "").trim();
   if (trap) {
     redirect("/contact?thanks=1");

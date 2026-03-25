@@ -17,7 +17,7 @@ export function PremiumCard({
     <Tag
       id={id}
       className={[
-        "rounded-xl border border-zinc-200 bg-white p-6 shadow-sm ring-1 ring-zinc-900/[0.04]",
+        "rounded-2xl border border-zinc-200 bg-white p-7 shadow-sm ring-1 ring-zinc-900/[0.06]",
         className,
       ]
         .filter(Boolean)

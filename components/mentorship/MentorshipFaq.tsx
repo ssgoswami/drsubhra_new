@@ -11,7 +11,7 @@ export function MentorshipFaq({ items }: { items: MentorshipFaqItem[] }) {
           align="center"
           eyebrow="FAQ"
           title="Questions, answered clearly"
-          description="Straight expectations—so you can decide if this mentorship is the right fit."
+          description="Straight expectations-so you can decide if this mentorship is the right fit."
           className="mx-auto"
         />
         <div className="mx-auto mt-12 max-w-3xl rounded-2xl border border-zinc-200 bg-zinc-50/50 shadow-sm">
@@ -21,7 +21,7 @@ export function MentorshipFaq({ items }: { items: MentorshipFaqItem[] }) {
               className="group border-b border-zinc-200 last:border-b-0 [&_summary::-webkit-details-marker]:hidden"
             >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 text-left transition hover:bg-white sm:px-6 sm:py-5">
-                <span className="text-sm font-semibold text-zinc-900 sm:text-base">
+                <span className="font-serif text-sm font-semibold leading-snug text-zinc-900 sm:text-base">
                   {item.question}
                 </span>
                 <span

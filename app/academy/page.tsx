@@ -3,6 +3,7 @@ import { AcademyAskPreview } from "@/components/academy/AcademyAskPreview";
 import { AcademyCareerPreview } from "@/components/academy/AcademyCareerPreview";
 import { AcademyCoursesSection } from "@/components/academy/AcademyCoursesSection";
 import { AcademyCtaBand } from "@/components/academy/AcademyCtaBand";
+import { AcademySectionBanner } from "@/components/academy/AcademySectionBanner";
 import { AcademyHero } from "@/components/academy/AcademyHero";
 import { AcademyMockTestsSection } from "@/components/academy/AcademyMockTestsSection";
 import { AcademyPillars } from "@/components/academy/AcademyPillars";
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
 export default function AcademyPage() {
   return (
     <PageMain className="flex-1">
+      <AcademySectionBanner />
       <AcademyHero />
       <AcademyPillars />
       <AcademyCoursesSection courses={academyCourses} />

@@ -1,102 +1,109 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/layout/Container";
 import { Section } from "@/components/layout/Section";
-import { BadgePill } from "@/components/ui/BadgePill";
 import { Button } from "@/components/ui/Button";
-import { PremiumCard } from "@/components/ui/PremiumCard";
 import { routes } from "@/lib/routes";
 
 export function HomeHero() {
   return (
-    <Section className="relative overflow-hidden border-b border-zinc-200/80 bg-gradient-to-b from-white via-zinc-50/80 to-zinc-100/60">
+    <Section className="relative overflow-hidden border-b border-zinc-200/80 bg-gradient-to-b from-white via-zinc-50/60 to-zinc-100/40">
+      {/* Radial glow */}
       <div
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(24,24,27,0.06),transparent)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_50%_-10%,rgba(24,24,27,0.05),transparent)]"
         aria-hidden
       />
-      <Container className="relative py-16 sm:py-20 lg:flex lg:items-center lg:justify-between lg:gap-12 lg:py-28">
-        <div className="max-w-2xl text-center lg:flex-1 lg:text-left">
-          <BadgePill className="mx-auto lg:mx-0">Dr Subhra</BadgePill>
-          <h1 className="mt-6 font-serif text-4xl font-semibold leading-[1.1] tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl">
-            <span className="block text-zinc-600 sm:text-4xl lg:text-5xl">
-              Dr Subhra
-            </span>
-            <span className="mt-2 block">
-              Mentorship, education, and academic growth—for serious learners.
-            </span>
-          </h1>
-          <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-zinc-700 sm:text-lg lg:mx-0">
-            I guide Indian students through{" "}
-            <strong className="font-semibold text-zinc-900">
-              study abroad
-            </strong>{" "}
-            at Masters, PhD, and Postdoc levels, and I am building an{" "}
-            <strong className="font-semibold text-zinc-900">Academy</strong> for
-            professional courses, mock tests, career guidance, and continued
-            academic excellence.
-          </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
-            <Button href={routes.booking} variant="navCta" className="w-full sm:w-auto">
-              Book Session
-            </Button>
-            <Button
-              href={routes.academy}
-              variant="secondary"
-              className="w-full sm:w-auto"
-            >
-              Explore Academy
-            </Button>
-          </div>
-          <p className="mt-6 text-sm text-zinc-600">
-            Structured guidance · Clear timelines · Research-first thinking
-          </p>
-        </div>
+      {/* Dot-grid texture */}
+      <div className="pattern-dots-light pointer-events-none absolute inset-0" aria-hidden />
+      <Container className="relative py-20 sm:py-24 lg:py-28">
+        <div className="grid items-center gap-10 lg:grid-cols-[5fr_3fr] lg:gap-12">
 
-        <PremiumCard
-          as="div"
-          className="mt-12 w-full max-w-md border-zinc-200/80 shadow-lg lg:mt-0 lg:shrink-0"
-        >
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-600">
-            At a glance
-          </p>
-          <ul className="mt-4 space-y-3 text-sm leading-relaxed text-zinc-700">
-            <li className="flex gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500" />
-              <span>
-                <Link
-                  href={routes.mentorship}
-                  className="font-medium text-indigo-700 underline-offset-2 hover:underline"
-                >
-                  Mentorship
-                </Link>{" "}
-                for funded, research-aligned applications abroad
-              </span>
-            </li>
-            <li className="flex gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" />
-              <span>
-                <Link
-                  href={routes.academy}
-                  className="font-medium text-teal-700 underline-offset-2 hover:underline"
-                >
-                  Academy
-                </Link>{" "}
-                for courses, mocks, and career direction
-              </span>
-            </li>
-            <li className="flex gap-2">
-              <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-zinc-400" />
-              <span>
-                <Link
-                  href={routes.blog}
-                  className="font-medium text-zinc-900 underline-offset-2 hover:underline"
-                >
-                  Insights
-                </Link>{" "}
-                on research, applications, and learning strategy
-              </span>
-            </li>
-          </ul>
-        </PremiumCard>
+          {/* Left: text content */}
+          <div className="mx-auto max-w-2xl text-center lg:mx-0 lg:text-left">
+            <h1 className="font-serif text-[2rem] font-semibold leading-[1.15] tracking-tight text-zinc-900 sm:text-[2.5rem] lg:text-[2.25rem]">
+              Personalized guidance for Masters,{" "}
+              <br className="hidden lg:block" />
+              PhD, and Postdoc applications abroad.
+            </h1>
+            <p className="mx-auto mt-6 max-w-xl text-base leading-[1.75] text-zinc-600 sm:text-lg lg:mx-0">
+              Structured, research-driven mentorship for students applying to
+              fully funded programmes - from university selection to final
+              submission.
+            </p>
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
+              <Button
+                href={routes.booking}
+                variant="mentorshipCta"
+                className="w-full sm:w-auto"
+              >
+                Book a session
+              </Button>
+              <Button
+                href={routes.academy}
+                variant="ghost"
+                className="w-full justify-center sm:w-auto"
+              >
+                Explore Academy →
+              </Button>
+            </div>
+
+            {/* Quick-links */}
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 border-t border-zinc-200/70 pt-7 lg:justify-start">
+              <Link
+                href={routes.mentorship}
+                className="flex items-center gap-2 text-sm font-medium text-indigo-700 underline-offset-2 hover:underline"
+              >
+                <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-400" aria-hidden />
+                Mentorship
+              </Link>
+              <span className="text-zinc-300" aria-hidden>·</span>
+              <Link
+                href={routes.academy}
+                className="flex items-center gap-2 text-sm font-medium text-teal-700 underline-offset-2 hover:underline"
+              >
+                <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-teal-400" aria-hidden />
+                Academy
+              </Link>
+              <span className="text-zinc-300" aria-hidden>·</span>
+              <Link
+                href={routes.blog}
+                className="flex items-center gap-2 text-sm font-medium text-amber-700 underline-offset-2 hover:underline"
+              >
+                <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-amber-400" aria-hidden />
+                Insights
+              </Link>
+            </div>
+          </div>
+
+          {/* Right: profile image + caption - desktop only */}
+          <div className="hidden lg:flex lg:flex-col lg:items-center">
+            <div className="relative w-full max-w-[340px]">
+              {/* Soft backdrop */}
+              <div
+                className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-indigo-50/60 via-zinc-50/40 to-transparent"
+                aria-hidden
+              />
+              <Image
+                src="/images/subhra_photo115.png"
+                alt="Dr Subhra Sundar - Mentor, Educator, Researcher"
+                width={340}
+                height={347}
+                priority
+                className="relative w-full rounded-xl shadow-lg ring-1 ring-zinc-900/[0.07]"
+              />
+            </div>
+            {/* Caption */}
+            <div className="mt-4 text-center">
+              <p className="font-serif text-sm font-semibold text-zinc-900">
+                Dr Subhra Sundar
+              </p>
+              <p className="mt-0.5 text-[0.6875rem] font-medium tracking-[0.12em] text-zinc-500">
+                Researcher · Mentor · Educator
+              </p>
+            </div>
+          </div>
+
+        </div>
       </Container>
     </Section>
   );

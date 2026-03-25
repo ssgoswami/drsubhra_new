@@ -17,7 +17,7 @@ export function HomeFeaturedBlog() {
           <SectionHeading
             eyebrow="Insights"
             title="From the blog"
-            description="Study abroad, research mindset, documents, and career direction—practical notes for applicants and students."
+            description="Study abroad, research mindset, documents, and career direction-practical notes for applicants and students."
             className="sm:max-w-xl"
           />
           <Button href={routes.blog} variant="ghost" className="shrink-0 self-start sm:self-auto">
@@ -28,17 +28,18 @@ export function HomeFeaturedBlog() {
           {featured.map((post) => (
             <li key={post.slug}>
               <PremiumCard className="h-full border-zinc-200/90 transition hover:shadow-md">
-                <p className="text-xs font-semibold uppercase tracking-wide text-zinc-600">
+                <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.12em] text-zinc-500">
                   {post.category}
                 </p>
-                <h3 className="mt-2 text-lg font-semibold leading-snug text-zinc-900">
+                <h3 className="mt-2.5 font-serif text-lg font-semibold leading-snug tracking-tight text-zinc-900">
                   {post.title}
                 </h3>
                 <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-zinc-700">
                   {post.excerpt}
                 </p>
-                <div className="mt-4 flex items-center justify-between text-xs text-zinc-600">
+                <div className="mt-5 flex items-center gap-3 text-xs text-zinc-500">
                   <span>{post.date}</span>
+                  <span className="h-px w-4 bg-zinc-200" aria-hidden />
                   <span>{post.readTime}</span>
                 </div>
               </PremiumCard>

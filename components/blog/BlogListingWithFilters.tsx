@@ -24,7 +24,7 @@ export function BlogListingWithFilters({
 
   return (
     <div>
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <h2 className="text-lg font-semibold text-zinc-900">All articles</h2>
         <div
           className="flex flex-wrap gap-2"

@@ -11,7 +11,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Contact | Dr Subhra",
   description:
-    "Contact Dr Subhra for general enquiries, mentorship, Academy programmes, or collaboration. Structured response—no informal profile reviews in chat.",
+    "Contact Dr Subhra for general enquiries, mentorship, Academy programmes, or collaboration. Structured response-no informal profile reviews in chat.",
   alternates: { canonical: "/contact" },
 };
 
@@ -26,7 +26,7 @@ export default async function ContactPage({
   return (
     <PageMain className="flex-1">
       <Section className="border-b border-zinc-200 bg-gradient-to-b from-white to-zinc-50">
-        <Container className="py-14 sm:py-16 lg:py-20">
+        <Container className="py-16 sm:py-20 lg:py-24">
           <PageHero
             eyebrow="Contact"
             title="Let&apos;s start a professional conversation"
@@ -55,7 +55,7 @@ export default async function ContactPage({
               role="status"
             >
               <p className="text-sm font-semibold text-emerald-900 sm:text-base">
-                Thank you — your message has been received.
+                Thank you - your message has been received.
               </p>
               <p className="mt-2 text-sm text-emerald-800/90">
                 You&apos;ll hear back by email, typically within two business
@@ -71,8 +71,8 @@ export default async function ContactPage({
             </div>
           ) : null}
 
-          <div className="grid gap-12 lg:grid-cols-12 lg:gap-14">
-            <div className="lg:col-span-7">
+          <div className="grid gap-12 md:grid-cols-12 md:gap-14">
+            <div className="md:col-span-7">
               <div className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm sm:p-8 lg:p-10">
                 <h2 className="text-lg font-semibold text-zinc-900">
                   Send a message
@@ -86,8 +86,8 @@ export default async function ContactPage({
               </div>
             </div>
 
-            <aside className="lg:col-span-5">
-              <div className="space-y-8 lg:sticky lg:top-28">
+            <aside className="md:col-span-5">
+              <div className="space-y-8 md:sticky md:top-28">
                 <div className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
                   <h2 className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
                     What to expect
@@ -99,7 +99,7 @@ export default async function ContactPage({
                     </li>
                     <li className="flex gap-2">
                       <span className="font-semibold text-zinc-900">·</span>
-                      No profile evaluations over informal DMs—use the form or
+                      No profile evaluations over informal DMs-use the form or
                       book a mentorship session.
                     </li>
                     <li className="flex gap-2">
@@ -121,7 +121,7 @@ export default async function ContactPage({
                     contact@drsubhra.com
                   </a>
                   <p className="mt-3 text-xs leading-relaxed text-zinc-600">
-                    Prefer email for attachments or long context—please still
+                    Prefer email for attachments or long context-please still
                     mention whether you need mentorship, Academy, or a general
                     enquiry.
                   </p>

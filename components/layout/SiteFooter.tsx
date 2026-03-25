@@ -36,7 +36,7 @@ export function SiteFooter() {
           <div className="lg:col-span-1">
             <Link
               href={routes.home}
-              className="inline-block text-lg font-semibold tracking-tight text-white"
+              className="inline-block font-serif text-xl font-semibold tracking-tight text-white"
             >
               Dr Subhra
             </Link>
@@ -55,7 +55,7 @@ export function SiteFooter() {
 
           {footerColumns.map((col) => (
             <div key={col.title}>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">
+              <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-zinc-500">
                 {col.title}
               </p>
               <ul className="mt-4 space-y-3">
