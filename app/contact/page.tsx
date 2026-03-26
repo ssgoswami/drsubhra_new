@@ -15,14 +15,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/contact" },
 };
 
-export default async function ContactPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ thanks?: string }>;
-}) {
-  const { thanks } = await searchParams;
-  const showThanks = thanks === "1";
-
+export default function ContactPage() {
   return (
     <PageMain className="flex-1">
       <Section className="border-b border-zinc-200 bg-gradient-to-b from-white to-zinc-50">
@@ -49,27 +42,6 @@ export default async function ContactPage({
 
       <Section>
         <Container className="py-12 sm:py-16 lg:py-20">
-          {showThanks ? (
-            <div
-              className="mb-10 rounded-2xl border border-emerald-200 bg-emerald-50/90 px-5 py-5 text-center shadow-sm sm:px-8 sm:py-6"
-              role="status"
-            >
-              <p className="text-sm font-semibold text-emerald-900 sm:text-base">
-                Thank you - your message has been received.
-              </p>
-              <p className="mt-2 text-sm text-emerald-800/90">
-                You&apos;ll hear back by email, typically within two business
-                days. If your matter is urgent, you may also write to{" "}
-                <a
-                  href="mailto:contact@drsubhra.com"
-                  className="font-medium underline-offset-2 hover:underline"
-                >
-                  contact@drsubhra.com
-                </a>
-                .
-              </p>
-            </div>
-          ) : null}
 
           <div className="grid gap-12 md:grid-cols-12 md:gap-14">
             <div className="md:col-span-7">

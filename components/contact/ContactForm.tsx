@@ -1,12 +1,8 @@
-"use client";
-
-import { useActionState } from "react";
-import {
-  contactFormInitialState,
-  submitContactForm,
-} from "@/app/contact/actions";
 import { Button } from "@/components/ui/Button";
 import { ds } from "@/lib/design-system";
+
+// Replace YOUR_FORM_ID with your actual Formspree (or other provider) endpoint.
+const FORM_ACTION = "https://formspree.io/f/YOUR_FORM_ID";
 
 const enquiryOptions = [
   "General Enquiry",
@@ -16,37 +12,30 @@ const enquiryOptions = [
 ] as const;
 
 const fieldClass = ds.formControl;
-
 const labelClass = "text-sm font-medium text-zinc-800";
 
 export function ContactForm() {
-  const [state, formAction, pending] = useActionState(
-    submitContactForm,
-    contactFormInitialState,
-  );
-
   return (
-    <form action={formAction} className="relative space-y-6" noValidate>
-      {/* Honeypot */}
+    <form
+      action={FORM_ACTION}
+      method="POST"
+      className="space-y-6"
+      noValidate
+    >
+      {/* Honeypot - leave empty */}
       <div className="absolute -left-[9999px] h-0 w-0 overflow-hidden" aria-hidden>
         <label htmlFor="contact-company">Company</label>
         <input
           id="contact-company"
-          name="company"
+          name="_gotcha"
           type="text"
           tabIndex={-1}
           autoComplete="off"
         />
       </div>
 
-      {state.message && state.errors && Object.keys(state.errors).length > 0 ? (
-        <p
-          className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900"
-          role="alert"
-        >
-          {state.message}
-        </p>
-      ) : null}
+      {/* Hidden subject for Formspree */}
+      <input type="hidden" name="_subject" value="New enquiry from drsubhra.com" />
 
       <div>
         <label htmlFor="contact-name" className={labelClass}>
@@ -60,14 +49,7 @@ export function ContactForm() {
           autoComplete="name"
           className={fieldClass}
           placeholder="Your name"
-          aria-invalid={Boolean(state.errors?.name)}
-          aria-describedby={state.errors?.name ? "err-name" : undefined}
         />
-        {state.errors?.name ? (
-          <p id="err-name" className="mt-1.5 text-sm text-red-600">
-            {state.errors.name}
-          </p>
-        ) : null}
       </div>
 
       <div>
@@ -82,14 +64,7 @@ export function ContactForm() {
           autoComplete="email"
           className={fieldClass}
           placeholder="you@example.com"
-          aria-invalid={Boolean(state.errors?.email)}
-          aria-describedby={state.errors?.email ? "err-email" : undefined}
         />
-        {state.errors?.email ? (
-          <p id="err-email" className="mt-1.5 text-sm text-red-600">
-            {state.errors.email}
-          </p>
-        ) : null}
       </div>
 
       <div>
@@ -102,10 +77,6 @@ export function ContactForm() {
           required
           defaultValue=""
           className={fieldClass}
-          aria-invalid={Boolean(state.errors?.enquiryType)}
-          aria-describedby={
-            state.errors?.enquiryType ? "err-enquiry" : undefined
-          }
         >
           <option value="" disabled>
             Select an option
@@ -116,11 +87,6 @@ export function ContactForm() {
             </option>
           ))}
         </select>
-        {state.errors?.enquiryType ? (
-          <p id="err-enquiry" className="mt-1.5 text-sm text-red-600">
-            {state.errors.enquiryType}
-          </p>
-        ) : null}
       </div>
 
       <div>
@@ -133,15 +99,8 @@ export function ContactForm() {
           required
           rows={5}
           className={`${fieldClass} resize-y min-h-[120px]`}
-          placeholder="Tell me briefly what you need help with—your level, timeline, and whether this is about mentorship, Academy, or something else."
-          aria-invalid={Boolean(state.errors?.message)}
-          aria-describedby={state.errors?.message ? "err-message" : undefined}
+          placeholder="Tell me briefly what you need help with-your level, timeline, and whether this is about mentorship, Academy, or something else."
         />
-        {state.errors?.message ? (
-          <p id="err-message" className="mt-1.5 text-sm text-red-600">
-            {state.errors.message}
-          </p>
-        ) : null}
       </div>
 
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -149,9 +108,8 @@ export function ContactForm() {
           type="submit"
           variant="navCta"
           className="w-full sm:w-auto"
-          disabled={pending}
         >
-          {pending ? "Sending…" : "Send message"}
+          Send message
         </Button>
         <p className="text-xs text-zinc-500">
           By submitting, you agree to be contacted by email regarding this
