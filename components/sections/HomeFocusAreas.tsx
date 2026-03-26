@@ -23,14 +23,14 @@ const areas = [
   {
     title: "Mock Tests",
     description:
-      "Structured practice for school and entrance exams-rigorous, feedback-oriented preparation.",
+      "Structured practice for school and entrance exams - rigorous, feedback-oriented preparation.",
     href: routes.academy,
     cta: "Coming to Academy",
   },
   {
     title: "Career Guidance",
     description:
-      "Direction on pathways, programmes, and outcomes-so decisions are informed, not improvised.",
+      "Direction on pathways, programmes, and outcomes - so decisions are informed, not improvised.",
     href: routes.academy,
     cta: "Learn more",
   },
@@ -38,12 +38,12 @@ const areas = [
 
 export function HomeFocusAreas() {
   return (
-    <Section id="focus-areas" className="border-b border-zinc-200 bg-zinc-50">
-      <Container className="py-16 sm:py-20 lg:py-24">
+    <Section id="focus-areas" className="border-b border-zinc-200/50 bg-zinc-50">
+      <Container className="py-20 sm:py-24 lg:py-28">
         <SectionHeading
           eyebrow="Focus areas"
           title="Where I can support you"
-          description="Mentorship and Academy stay distinct-choose the path that matches your goal."
+          description="Mentorship and Academy stay distinct - choose the path that matches your goal."
         />
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
           {areas.map((area) => (

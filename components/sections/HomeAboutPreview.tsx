@@ -6,7 +6,7 @@ import { routes } from "@/lib/routes";
 export function HomeAboutPreview() {
   return (
     <TwoColumnFeature
-      sectionClassName="border-b border-zinc-200 bg-white"
+      sectionClassName="border-b border-zinc-200/50 bg-white"
       left={
         <SectionHeading
           eyebrow="About"
@@ -24,7 +24,9 @@ export function HomeAboutPreview() {
         />
       }
       right={
-        <div className="rounded-2xl border border-zinc-200 bg-gradient-to-br from-zinc-50 to-zinc-100/80 p-8 shadow-sm">
+        <div className="relative overflow-hidden rounded-2xl border border-zinc-200 bg-gradient-to-br from-white to-zinc-50/80 p-8 shadow-sm">
+          {/* Thin top rule — editorial accent */}
+          <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-indigo-300/60 to-transparent" aria-hidden />
           <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-zinc-500">
             Philosophy
           </p>

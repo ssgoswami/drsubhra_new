@@ -21,11 +21,11 @@ export function HomeHero() {
           {/* Left: text content */}
           <div className="mx-auto max-w-2xl text-center lg:mx-0 lg:text-left">
             <h1 className="font-serif text-[2rem] font-semibold leading-[1.15] tracking-tight text-zinc-900 sm:text-[2.5rem] lg:text-[2.25rem]">
-              Personalized guidance for Masters,{" "}
+              Personalised guidance for Masters,{" "}
               <br className="hidden lg:block" />
               PhD, and Postdoc applications abroad.
             </h1>
-            <p className="mx-auto mt-6 max-w-xl text-base leading-[1.75] text-zinc-600 sm:text-lg lg:mx-0">
+            <p className="mx-auto mt-6 max-w-xl text-base leading-[1.75] text-zinc-700 sm:text-lg lg:mx-0">
               Structured research mentorship and study abroad guidance for
               Indian students applying to fully funded Masters, PhD, and Postdoc
               programmes - from university selection to final submission.
@@ -80,7 +80,7 @@ export function HomeHero() {
             <div className="relative w-full max-w-[260px] sm:max-w-[300px] lg:max-w-[340px]">
               {/* Soft backdrop */}
               <div
-                className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-indigo-50/60 via-zinc-50/40 to-transparent"
+                className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-zinc-100/70 via-zinc-50/30 to-transparent"
                 aria-hidden
               />
               <Image
@@ -89,7 +89,7 @@ export function HomeHero() {
                 width={340}
                 height={347}
                 priority
-                className="relative w-full rounded-xl shadow-lg ring-1 ring-zinc-900/[0.07]"
+                className="relative w-full rounded-xl shadow-md ring-1 ring-zinc-900/[0.09]"
               />
             </div>
             {/* Caption */}
@@ -97,7 +97,7 @@ export function HomeHero() {
               <p className="font-serif text-sm font-semibold text-zinc-900">
                 Dr Subhra Sundar
               </p>
-              <p className="mt-0.5 text-[0.6875rem] font-medium tracking-[0.12em] text-zinc-500">
+              <p className="mt-0.5 text-[0.6875rem] font-medium tracking-[0.18em] text-zinc-500">
                 Researcher · Mentor · Educator
               </p>
             </div>

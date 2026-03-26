@@ -17,7 +17,7 @@ export const ds = {
     "font-serif text-3xl font-semibold leading-[1.1] tracking-tight text-balance text-zinc-900 sm:text-4xl lg:text-5xl",
   /** Section titles (H2) — serif, editorial */
   heading2:
-    "font-serif text-3xl font-semibold leading-tight tracking-tight text-balance text-zinc-900 sm:text-4xl",
+    "font-serif text-3xl font-semibold leading-[1.1] tracking-tight text-balance text-zinc-900 sm:text-4xl",
   heading2Tight: "mt-3",
   /** Card and sub-section titles (H3) — serif */
   cardTitle: "font-serif text-xl font-semibold leading-snug tracking-tight text-zinc-900",

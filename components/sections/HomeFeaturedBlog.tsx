@@ -11,7 +11,7 @@ const featured = blogPosts.slice(0, 3);
 
 export function HomeFeaturedBlog() {
   return (
-    <Section className="border-b border-zinc-200 bg-white">
+    <Section className="border-b border-zinc-200/50 bg-white">
       <Container className="py-16 sm:py-20 lg:py-24">
         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading
@@ -20,7 +20,7 @@ export function HomeFeaturedBlog() {
             description="Study abroad, research mindset, documents, and career direction-practical notes for applicants and students."
             className="sm:max-w-xl"
           />
-          <Button href={routes.blog} variant="ghost" className="shrink-0 self-start sm:self-auto">
+          <Button href={routes.blog} variant="secondary" className="shrink-0 self-start sm:self-auto">
             View all articles
           </Button>
         </div>
@@ -46,7 +46,7 @@ export function HomeFeaturedBlog() {
             </li>
           ))}
         </ul>
-        <p className="mt-8 text-center text-sm text-zinc-600">
+        <p className="mt-12 text-center text-sm text-zinc-600">
           Full articles and updates on the{" "}
           <Link
             href={routes.blog}
