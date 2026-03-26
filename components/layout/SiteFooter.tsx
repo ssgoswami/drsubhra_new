@@ -38,11 +38,11 @@ export function SiteFooter() {
               href={routes.home}
               className="inline-block font-serif text-xl font-semibold tracking-tight text-white"
             >
-              Dr Subhra
+              Dr Subhra Sundar
             </Link>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-zinc-400">
               Mentorship for study abroad and a growing academy for courses,
-              assessments, and student guidance—structured, professional, and
+              assessments, and student guidance-structured, professional, and
               built for serious learners.
             </p>
             <a
@@ -76,7 +76,7 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-zinc-800 pt-8 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-zinc-500">
-            © {year} Dr Subhra. All rights reserved.
+            © {year} Dr Subhra Sundar. All rights reserved.
           </p>
           <nav className="flex flex-wrap gap-x-6 gap-y-2" aria-label="Legal">
             <Link
