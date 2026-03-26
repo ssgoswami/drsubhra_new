@@ -75,9 +75,9 @@ export function HomeHero() {
             </div>
           </div>
 
-          {/* Right: profile image + caption - desktop only */}
-          <div className="hidden lg:flex lg:flex-col lg:items-center">
-            <div className="relative w-full max-w-[340px]">
+          {/* Right: profile image + caption */}
+          <div className="flex flex-col items-center lg:items-center">
+            <div className="relative w-full max-w-[260px] sm:max-w-[300px] lg:max-w-[340px]">
               {/* Soft backdrop */}
               <div
                 className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-indigo-50/60 via-zinc-50/40 to-transparent"
