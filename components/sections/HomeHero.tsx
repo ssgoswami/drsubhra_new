@@ -26,9 +26,9 @@ export function HomeHero() {
               PhD, and Postdoc applications abroad.
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-base leading-[1.75] text-zinc-600 sm:text-lg lg:mx-0">
-              Structured, research-driven mentorship for students applying to
-              fully funded programmes - from university selection to final
-              submission.
+              Structured research mentorship and study abroad guidance for
+              Indian students applying to fully funded Masters, PhD, and Postdoc
+              programmes - from university selection to final submission.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
               <Button

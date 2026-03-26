@@ -9,10 +9,24 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact | Dr Subhra",
+  title: "Contact Dr Subhra Sundar | Mentorship Enquiries & Bookings",
   description:
-    "Contact Dr Subhra for general enquiries, mentorship, Academy programmes, or collaboration. Structured response-no informal profile reviews in chat.",
+    "Get in touch with Dr Subhra Sundar for study abroad mentorship, Academy information, or collaboration enquiries. Structured responses within two business days.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact Dr Subhra Sundar | Mentorship Enquiries & Bookings",
+    description:
+      "Get in touch with Dr Subhra Sundar for study abroad mentorship, Academy information, or collaboration enquiries.",
+    url: "https://www.drsubhra.com/contact/",
+    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Dr Subhra Sundar | Mentorship Enquiries & Bookings",
+    description:
+      "Get in touch with Dr Subhra Sundar for study abroad mentorship, Academy information, or collaboration enquiries.",
+    images: ["/images/subhra_photo115.png"],
+  },
 };
 
 export default function ContactPage() {

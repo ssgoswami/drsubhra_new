@@ -15,10 +15,24 @@ import { routes } from "@/lib/routes";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Mentorship | Study Abroad - Masters, PhD & Postdoc",
+  title: "Study Abroad Mentorship | Masters, PhD & Postdoc Applications - Dr Subhra Sundar",
   description:
-    "Personalised study abroad mentorship for Indian students: Masters, PhD, and Postdoc-structured guidance, clear scope, and research-fit strategy with Dr Subhra.",
+    "Personalised, structured mentorship for Indian students applying to fully funded Masters, PhD, and Postdoc programmes in Europe and the USA. Clear scope, real strategy, defined deliverables.",
   alternates: { canonical: "/mentorship" },
+  openGraph: {
+    title: "Study Abroad Mentorship | Masters, PhD & Postdoc Applications - Dr Subhra Sundar",
+    description:
+      "Structured mentorship for Indian students applying to fully funded Masters, PhD, and Postdoc programmes abroad. Clear scope and research-fit strategy.",
+    url: "https://www.drsubhra.com/mentorship/",
+    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Study Abroad Mentorship | Masters, PhD & Postdoc Applications - Dr Subhra Sundar",
+    description:
+      "Structured mentorship for Indian students applying to fully funded Masters, PhD, and Postdoc programmes abroad. Clear scope and research-fit strategy.",
+    images: ["/images/subhra_photo115.png"],
+  },
 };
 
 const processSteps = [

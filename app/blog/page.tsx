@@ -12,11 +12,23 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | Study Abroad, Research & Career Guidance",
+  title: "Blog | Study Abroad Tips, PhD Guides & Research Insights - Dr Subhra Sundar",
   description:
-    "Articles and guidance for Masters, PhD, and Postdoc applications abroad-documents, research-fit strategy, and practical career direction.",
-  alternates: {
-    canonical: "/blog",
+    "Practical guides on Masters, PhD, and Postdoc applications abroad - SOP writing, research fit, university selection, funding strategies, and career direction for STEM students.",
+  alternates: { canonical: "/blog" },
+  openGraph: {
+    title: "Blog | Study Abroad Tips, PhD Guides & Research Insights - Dr Subhra Sundar",
+    description:
+      "Practical guides on Masters, PhD, and Postdoc applications abroad - SOP writing, research fit, university selection, and funding strategies.",
+    url: "https://www.drsubhra.com/blog/",
+    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog | Study Abroad Tips, PhD Guides & Research Insights - Dr Subhra Sundar",
+    description:
+      "Practical guides on Masters, PhD, and Postdoc applications abroad - SOP writing, research fit, university selection, and funding strategies.",
+    images: ["/images/subhra_photo115.png"],
   },
 };
 

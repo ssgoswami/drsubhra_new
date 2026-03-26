@@ -7,7 +7,7 @@ export function HomeFinalCta() {
     <CtaBand
       sectionClassName="bg-zinc-900"
       title="Ready for the next step?"
-      description="Book a mentorship session to clarify your study-abroad pathway, or explore the Academy for courses, mocks, and career guidance as they roll out."
+      description="Book a session for personalised study abroad guidance on your Masters, PhD, or Postdoc application - or explore the Academy for academic courses, mock tests, and career guidance."
     >
       <Button href={routes.booking} variant="onDark" className="w-full sm:w-auto">
         Book Session

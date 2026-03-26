@@ -12,8 +12,8 @@ export function AcademyPillars() {
           Four pillars
         </p>
         <p className="mx-auto mt-3 max-w-2xl text-center text-base leading-[1.75] text-zinc-600">
-          Everything in the Academy rolls up to these categories-add offerings
-          under each without restructuring the site.
+          Academic courses, exam preparation, career guidance, and subject Q&A -
+          structured support for students at every stage.
         </p>
         <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {academyPillars.map((pillar) => (

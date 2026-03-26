@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lora, Inter } from "next/font/google";
 import { AppShell } from "@/components/layout/AppShell";
+import { GoogleAnalytics } from "@/components/seo/GoogleAnalytics";
 import { SiteJsonLd } from "@/components/seo/SiteJsonLd";
 import "./globals.css";
 
@@ -19,29 +20,55 @@ const sans = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.drsubhra.com"),
   title: {
-    default: "Dr Subhra | Study Abroad Mentor",
-    template: "%s | Dr Subhra",
+    default: "Dr Subhra Sundar | Study Abroad Mentor & Researcher",
+    template: "%s | Dr Subhra Sundar",
   },
   description:
-    "Mentorship for Masters, PhD, and Postdoc study abroad, plus Dr Subhra Academy for courses, mocks, and career guidance—structured support for Indian students.",
+    "Structured mentorship for Masters, PhD, and Postdoc study abroad applications, plus Dr Subhra Academy for STEM courses, mock tests, and career guidance.",
   robots: {
     index: true,
     follow: true,
   },
+  // Favicon — app/favicon.ico is served automatically by Next.js.
+  // Place a 180×180 PNG at public/apple-touch-icon.png for Apple devices.
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     url: "https://www.drsubhra.com",
-    siteName: "Dr Subhra",
-    title: "Dr Subhra | Study Abroad Mentor",
+    siteName: "Dr Subhra Sundar",
+    title: "Dr Subhra Sundar | Study Abroad Mentor & Researcher",
     description:
-      "Mentorship for Masters, PhD, and Postdoc abroad, plus Academy programmes—structured guidance and research-fit strategy.",
+      "Structured mentorship for Masters, PhD, and Postdoc applications abroad, plus Academy programmes for STEM students.",
     locale: "en_IN",
+    // Replace og-image.png with a 1200×630 banner for best social sharing previews.
+    // Until then, the profile photo is used as the fallback.
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Dr Subhra Sundar - Researcher, Mentor, Educator",
+      },
+      {
+        url: "/images/subhra_photo115.png",
+        width: 340,
+        height: 347,
+        alt: "Dr Subhra Sundar - Researcher, Mentor, Educator",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
-    title: "Dr Subhra | Study Abroad Mentor",
+    card: "summary_large_image",
+    title: "Dr Subhra Sundar | Study Abroad Mentor & Researcher",
     description:
-      "Mentorship for Masters, PhD, and Postdoc abroad, plus Academy programmes—structured guidance for Indian students.",
+      "Structured mentorship for Masters, PhD, and Postdoc applications abroad, plus Academy programmes for STEM students.",
+    images: ["/images/og-image.png"],
   },
 };
 
@@ -53,6 +80,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${serif.variable} ${sans.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col bg-zinc-50 text-zinc-900">
+        <GoogleAnalytics />
         <SiteJsonLd />
         <a href="#main-content" className="skip-to-content">
           Skip to main content

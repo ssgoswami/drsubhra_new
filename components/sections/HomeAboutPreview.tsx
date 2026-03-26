@@ -15,9 +15,10 @@ export function HomeAboutPreview() {
             <>
               I am a researcher and educator with international experience
               across Europe and the United States. My work spans computer
-              science, medical imaging, and biomedical engineering-with a
-              mentoring style that is structured, transparent, and built for
-              applicants who are ready to execute with discipline.
+              science, medical imaging, and biomedical engineering. The research
+              mentorship and study abroad guidance I offer Indian students is
+              structured, transparent, and built for applicants who are ready to
+              execute with discipline.
             </>
           }
         />

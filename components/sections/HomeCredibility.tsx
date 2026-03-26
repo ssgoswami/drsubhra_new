@@ -30,7 +30,7 @@ export function HomeCredibility() {
           align="center"
           eyebrow="Credibility"
           title="Background you can verify"
-          description="A track record in research and international academia-aligned with how I mentor applicants today."
+          description="A track record in research and international academia - grounding the study abroad guidance and research mentorship I offer today."
         />
         <ul className="mx-auto mt-12 grid max-w-4xl gap-4 sm:grid-cols-2">
           {milestones.map((item) => (

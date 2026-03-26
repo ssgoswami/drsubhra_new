@@ -27,14 +27,15 @@ export function MentorshipHero() {
       <Container className="relative py-20 sm:py-24 lg:py-28">
         <div className="mx-auto max-w-3xl text-center">
           <BadgePill className="mx-auto border-indigo-200/80 bg-indigo-50/80 text-indigo-700">
-            Personalised mentorship
+            Personalised study abroad mentorship
           </BadgePill>
           <h1 className="mt-6 font-serif text-4xl font-semibold leading-[1.05] tracking-tight text-balance text-zinc-900 sm:text-5xl lg:text-6xl">
             Study abroad guidance for Masters, PhD & Postdoc
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-[1.75] text-zinc-700 sm:text-lg">
-            Structured, research-aware support for serious applicants-strategy,
-            documents, and execution within clear scope.{" "}
+            Personalised research mentorship and PhD application guidance for
+            Indian students - strategy, documents, and execution within clear
+            scope.{" "}
             <span className="font-medium text-zinc-900">
               Not group courses; not Academy.
             </span>

@@ -6,10 +6,20 @@ import { ds } from "@/lib/design-system";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy policy",
+  title: "Privacy Policy | Dr Subhra Sundar",
   description:
-    "How Dr Subhra handles information on this site. Full policy to be published before payments or scaled data collection.",
+    "Privacy policy for drsubhra.com - how personal data collected through enquiries and bookings is stored, used, and protected.",
   alternates: { canonical: "/privacy" },
+  openGraph: {
+    title: "Privacy Policy | Dr Subhra Sundar",
+    description: "Privacy policy for drsubhra.com - how personal data is stored, used, and protected.",
+    url: "https://www.drsubhra.com/privacy/",
+  },
+  twitter: {
+    card: "summary",
+    title: "Privacy Policy | Dr Subhra Sundar",
+    description: "Privacy policy for drsubhra.com - how personal data is stored, used, and protected.",
+  },
 };
 
 export default function PrivacyPage() {

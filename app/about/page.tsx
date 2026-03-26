@@ -7,11 +7,23 @@ import { ds } from "@/lib/design-system";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Dr Subhra Mentor | Mission, Vision & Team",
+  title: "About Dr Subhra Sundar | Researcher, Postdoc at Harvard Medical School",
   description:
-    "Learn about Dr Subhra's mission and mentorship approach for Indian students pursuing Masters, PhD, and Postdoc pathways abroad.",
-  alternates: {
-    canonical: "/about",
+    "Dr Subhra Sundar is a postdoctoral researcher at Harvard Medical School and Erasmus Mundus PhD holder. Learn about the background, mentorship philosophy, and research journey.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Dr Subhra Sundar | Researcher, Postdoc at Harvard Medical School",
+    description:
+      "Postdoctoral researcher at Harvard Medical School, Erasmus Mundus PhD, and study abroad mentor for Indian STEM students.",
+    url: "https://www.drsubhra.com/about/",
+    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Dr Subhra Sundar | Researcher, Postdoc at Harvard Medical School",
+    description:
+      "Postdoctoral researcher at Harvard Medical School, Erasmus Mundus PhD, and study abroad mentor for Indian STEM students.",
+    images: ["/images/subhra_photo115.png"],
   },
 };
 

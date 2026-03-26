@@ -6,10 +6,20 @@ import { ds } from "@/lib/design-system";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of use",
+  title: "Terms of Use | Dr Subhra Sundar",
   description:
-    "Terms of use for the Dr Subhra website. Full terms to be added ahead of paid offerings and platform features.",
+    "Terms of use for drsubhra.com - rules governing use of this website, mentorship services, and Academy programmes.",
   alternates: { canonical: "/terms" },
+  openGraph: {
+    title: "Terms of Use | Dr Subhra Sundar",
+    description: "Terms of use for drsubhra.com - rules governing use of this website and its services.",
+    url: "https://www.drsubhra.com/terms/",
+  },
+  twitter: {
+    card: "summary",
+    title: "Terms of Use | Dr Subhra Sundar",
+    description: "Terms of use for drsubhra.com - rules governing use of this website and its services.",
+  },
 };
 
 export default function TermsPage() {

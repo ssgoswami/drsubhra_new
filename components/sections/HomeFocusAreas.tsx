@@ -9,14 +9,14 @@ const areas = [
   {
     title: "Study Abroad Mentorship",
     description:
-      "Masters, PhD, and Postdoc-strategy, documents, and execution support with clear scope and timelines.",
+      "Masters abroad mentorship, PhD application guidance, and Postdoc support - strategy, documents, and execution with clear scope and timelines.",
     href: routes.mentorship,
     cta: "View mentorship",
   },
   {
     title: "Professional Courses",
     description:
-      "Academic and professional programs designed to deepen skills and prepare you for the next step.",
+      "Academic courses and professional programmes in research, AI/ML, and image processing - designed to deepen skills and prepare you for the next step.",
     href: routes.academy,
     cta: "Explore Academy",
   },

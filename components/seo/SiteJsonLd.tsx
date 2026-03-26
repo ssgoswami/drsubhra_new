@@ -1,10 +1,10 @@
 const site = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Dr Subhra",
+  name: "Dr Subhra Sundar",
   url: "https://www.drsubhra.com",
   description:
-    "Mentorship for Masters, PhD, and Postdoc study abroad, plus Dr Subhra Academy for courses, mocks, and career guidance.",
+    "Structured research mentorship and study abroad guidance for Indian students, plus Dr Subhra Academy for academic courses, mock tests, and career guidance.",
   inLanguage: "en-IN",
 } as const;
 

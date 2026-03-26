@@ -14,10 +14,24 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Academy | Courses, Mock Tests, Career & Q&A",
+  title: "Dr Subhra Academy | STEM Courses, Mock Tests & Career Guidance",
   description:
-    "Dr Subhra Academy: courses in research methodology, image processing, and AI/ML; mock tests from school to JEE, IIT, and ISI; career guidance; and ask-a-question support for students.",
+    "Professional courses in research methodology, AI/ML, and image processing. Mock tests for JEE, ISI, and school exams. Career guidance and student Q&A for STEM learners.",
   alternates: { canonical: "/academy" },
+  openGraph: {
+    title: "Dr Subhra Academy | STEM Courses, Mock Tests & Career Guidance",
+    description:
+      "Courses in research methodology, AI/ML, and image processing. Mock tests for JEE and ISI. Career guidance for STEM students.",
+    url: "https://www.drsubhra.com/academy/",
+    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dr Subhra Academy | STEM Courses, Mock Tests & Career Guidance",
+    description:
+      "Courses in research methodology, AI/ML, and image processing. Mock tests for JEE and ISI. Career guidance for STEM students.",
+    images: ["/images/subhra_photo115.png"],
+  },
 };
 
 export default function AcademyPage() {

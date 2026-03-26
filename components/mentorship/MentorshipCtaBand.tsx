@@ -6,8 +6,8 @@ export function MentorshipCtaBand() {
   return (
     <CtaBand
       sectionClassName="bg-indigo-950"
-      title="Start with clarity-not guesswork"
-      description="Book a session to align on your pathway, timeline, and the right level of support. Mentorship stays separate from Academy offerings."
+      title="Start with clarity - not guesswork"
+      description="Book a session to align on your Masters abroad mentorship, PhD application guidance, or Postdoc strategy - with clear timeline and scope."
       descriptionClassName="text-indigo-200"
     >
       <Button href={routes.booking} variant="onDark" className="w-full sm:w-auto">

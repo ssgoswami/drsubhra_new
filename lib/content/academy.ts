@@ -83,7 +83,7 @@ export const academyPillars = [
     id: "courses",
     hash: "#courses",
     title: "Courses",
-    blurb: "Deep-dive programmes in methodology, imaging, and AI/ML.",
+    blurb: "Deep-dive academic courses in research methodology, imaging, and AI/ML.",
     icon: "book" as const,
   },
   {
@@ -97,7 +97,7 @@ export const academyPillars = [
     id: "career-guidance",
     hash: "#career-guidance",
     title: "Career Guidance",
-    blurb: "Pathways, programmes, and decisions—without the noise.",
+    blurb: "Study abroad pathways, programmes, and career decisions - without the noise.",
     icon: "compass" as const,
   },
   {
