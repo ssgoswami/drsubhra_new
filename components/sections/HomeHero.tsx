@@ -84,7 +84,7 @@ export function HomeHero() {
                 aria-hidden
               />
               <Image
-                src="/images/subhra_photo115.png"
+                src="/images/subhra_photo115.webp"
                 alt="Dr Subhra Sundar - Mentor, Educator, Researcher"
                 width={340}
                 height={347}

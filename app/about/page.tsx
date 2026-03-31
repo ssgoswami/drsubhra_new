@@ -16,14 +16,14 @@ export const metadata: Metadata = {
     description:
       "Postdoctoral researcher at Harvard Medical School, Erasmus Mundus PhD, and study abroad mentor for Indian STEM students.",
     url: "https://www.drsubhra.com/about/",
-    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+    images: [{ url: "/images/subhra_photo115.webp", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "About Dr Subhra Sundar | Researcher, Postdoc at Harvard Medical School",
     description:
       "Postdoctoral researcher at Harvard Medical School, Erasmus Mundus PhD, and study abroad mentor for Indian STEM students.",
-    images: ["/images/subhra_photo115.png"],
+    images: ["/images/subhra_photo115.webp"],
   },
 };
 

@@ -24,21 +24,21 @@ const milestones = [
 
 const photos = [
   {
-    src: "/images/Subhra_Photo_Harvard.png",
+    src: "/images/Subhra_Photo_Harvard.webp",
     alt: "Dr Subhra Sundar at Harvard Medical School",
     location: "Boston, USA",
     title: "Harvard Medical School",
     caption: "Postdoctoral research in medical imaging and biomedical engineering.",
   },
   {
-    src: "/images/Subhra_Photo_Lab1.png",
+    src: "/images/Subhra_Photo_Lab1.webp",
     alt: "Dr Subhra Sundar working in the imaging research lab",
     location: "Research lab",
     title: "Hands-on Imaging Research",
     caption: "Direct experience with advanced imaging systems and real-world research pipelines.",
   },
   {
-    src: "/images/Subhra_Photo_Lab2.png",
+    src: "/images/Subhra_Photo_Lab2.webp",
     alt: "Research lab environment",
     location: "Laboratory",
     title: "Experimental Research",

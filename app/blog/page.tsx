@@ -21,14 +21,14 @@ export const metadata: Metadata = {
     description:
       "Practical guides on Masters, PhD, and Postdoc applications abroad - SOP writing, research fit, university selection, and funding strategies.",
     url: "https://www.drsubhra.com/blog/",
-    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+    images: [{ url: "/images/subhra_photo115.webp", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Blog | Study Abroad Tips, PhD Guides & Research Insights - Dr Subhra Sundar",
     description:
       "Practical guides on Masters, PhD, and Postdoc applications abroad - SOP writing, research fit, university selection, and funding strategies.",
-    images: ["/images/subhra_photo115.png"],
+    images: ["/images/subhra_photo115.webp"],
   },
 };
 

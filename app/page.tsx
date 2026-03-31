@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     description:
       "Structured, research-driven mentorship for Indian students applying to fully funded Masters, PhD, and Postdoc programmes abroad.",
     url: "https://www.drsubhra.com/",
-    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+    images: [{ url: "/images/subhra_photo115.webp", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dr Subhra Sundar | Study Abroad Mentorship for Masters, PhD & Postdoc",
     description:
       "Structured, research-driven mentorship for Indian students applying to fully funded Masters, PhD, and Postdoc programmes abroad.",
-    images: ["/images/subhra_photo115.png"],
+    images: ["/images/subhra_photo115.webp"],
   },
 };
 

@@ -5,23 +5,58 @@ export const dynamic = "force-static";
 
 const base = "https://www.drsubhra.com";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const paths = [
-    routes.home,
-    routes.about,
-    routes.academy,
-    routes.mentorship,
-    routes.booking,
-    routes.blog,
-    routes.contact,
-    routes.privacy,
-    routes.terms,
-  ] as const;
+function url(path: string) {
+  // Normalise to trailing-slash form to match trailingSlash: true in next.config
+  const withSlash = path === "/" ? "" : path.endsWith("/") ? path : `${path}/`;
+  return `${base}${withSlash}`;
+}
 
-  return paths.map((path) => ({
-    url: path === "/" ? base : `${base}${path}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: path === "/" ? 1 : 0.7,
-  }));
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: url(routes.home),
+      priority: 1.0,
+      changeFrequency: "monthly",
+    },
+    {
+      url: url(routes.mentorship),
+      priority: 0.9,
+      changeFrequency: "monthly",
+    },
+    {
+      url: url(routes.academy),
+      priority: 0.9,
+      changeFrequency: "monthly",
+    },
+    {
+      url: url(routes.about),
+      priority: 0.8,
+      changeFrequency: "monthly",
+    },
+    {
+      url: url(routes.blog),
+      priority: 0.8,
+      changeFrequency: "weekly",
+    },
+    {
+      url: url(routes.contact),
+      priority: 0.7,
+      changeFrequency: "monthly",
+    },
+    {
+      url: url(routes.booking),
+      priority: 0.6,
+      changeFrequency: "monthly",
+    },
+    {
+      url: url(routes.privacy),
+      priority: 0.3,
+      changeFrequency: "yearly",
+    },
+    {
+      url: url(routes.terms),
+      priority: 0.3,
+      changeFrequency: "yearly",
+    },
+  ];
 }

@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     description:
       "Structured mentorship for Indian students applying to fully funded Masters, PhD, and Postdoc programmes abroad. Clear scope and research-fit strategy.",
     url: "https://www.drsubhra.com/mentorship/",
-    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+    images: [{ url: "/images/subhra_photo115.webp", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Study Abroad Mentorship | Masters, PhD & Postdoc Applications - Dr Subhra Sundar",
     description:
       "Structured mentorship for Indian students applying to fully funded Masters, PhD, and Postdoc programmes abroad. Clear scope and research-fit strategy.",
-    images: ["/images/subhra_photo115.png"],
+    images: ["/images/subhra_photo115.webp"],
   },
 };
 

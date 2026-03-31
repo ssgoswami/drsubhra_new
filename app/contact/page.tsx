@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     description:
       "Get in touch with Dr Subhra Sundar for study abroad mentorship, Academy information, or collaboration enquiries.",
     url: "https://www.drsubhra.com/contact/",
-    images: [{ url: "/images/subhra_photo115.png", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
+    images: [{ url: "/images/subhra_photo115.webp", width: 340, height: 347, alt: "Dr Subhra Sundar" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Contact Dr Subhra Sundar | Mentorship Enquiries & Bookings",
     description:
       "Get in touch with Dr Subhra Sundar for study abroad mentorship, Academy information, or collaboration enquiries.",
-    images: ["/images/subhra_photo115.png"],
+    images: ["/images/subhra_photo115.webp"],
   },
 };
 

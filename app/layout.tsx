@@ -56,7 +56,7 @@ export const metadata: Metadata = {
         alt: "Dr Subhra Sundar - Researcher, Mentor, Educator",
       },
       {
-        url: "/images/subhra_photo115.png",
+        url: "/images/subhra_photo115.webp",
         width: 340,
         height: 347,
         alt: "Dr Subhra Sundar - Researcher, Mentor, Educator",
