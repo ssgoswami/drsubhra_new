@@ -1,8 +1,9 @@
+import Link from "next/link";
 import { PremiumCard } from "@/components/ui/PremiumCard";
 import type { BlogPostPreview } from "@/lib/content/blog-posts";
 
 export function BlogPostCard({ post }: { post: BlogPostPreview }) {
-  return (
+  const card = (
     <PremiumCard className="flex h-full flex-col border-zinc-200/90 transition hover:border-zinc-300 hover:shadow-md">
       <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.12em] text-zinc-500">
         {post.category}
@@ -19,4 +20,14 @@ export function BlogPostCard({ post }: { post: BlogPostPreview }) {
       </div>
     </PremiumCard>
   );
+
+  if (post.hasFullPost) {
+    return (
+      <Link href={`/blog/${post.slug}`} className="block h-full">
+        {card}
+      </Link>
+    );
+  }
+
+  return <div className="h-full">{card}</div>;
 }

@@ -29,9 +29,14 @@ export function BlogFeaturedPost({ post }: { post: BlogPostPreview }) {
             </span>
             <span>{post.readTime}</span>
           </div>
-          <div className="mt-8">
-            <Button href="#articles-list" variant="primary">
-              Browse articles
+          <div className="mt-8 flex flex-wrap gap-3">
+            {post.hasFullPost && (
+              <Button href={`/blog/${post.slug}`} variant="primary">
+                Read article
+              </Button>
+            )}
+            <Button href="#articles-list" variant="secondary">
+              Browse all articles
             </Button>
           </div>
         </div>
