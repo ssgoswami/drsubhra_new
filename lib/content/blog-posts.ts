@@ -120,13 +120,14 @@ export const blogPosts: BlogPostPreview[] = [
     hasFullPost: true,
   },
   {
-    slug: "postdoc-research-profile",
+    slug: "strong-postdoc-research-profile",
     title: "Postdoc Pathways: Building a Strong Research Profile",
     excerpt:
-      "Key steps to position your publications, research statement, and long-term direction for competitive postdoc roles.",
+      "A strategic guide for Indian researchers on building a strong profile for postdoc applications - research quality, independence, fit, and common mistakes.",
     category: "Postdoc",
-    date: "Feb 2026",
-    readTime: "7 min read",
+    date: "Apr 2026",
+    readTime: "19 min read",
+    hasFullPost: true,
   },
   {
     slug: "sop-common-mistakes",
@@ -3704,6 +3705,446 @@ export const fullPosts: BlogPost[] = [
           {
             q: "Can I do a PhD with a supervisor who is not in my exact subfield?",
             a: "It depends on how significant the gap is. Working at the edge of a supervisor's interests can be productive if they are actively expanding in that direction. But a meaningful mismatch between your research direction and a supervisor's active work creates real problems - the supervision, feedback, and intellectual engagement you receive is most useful when your supervisor is genuinely interested in what you are working on.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "strong-postdoc-research-profile",
+    title: "Postdoc Pathways: Building a Strong Research Profile",
+    metaTitle:
+      "Postdoc Pathways: Building a Strong Research Profile | Dr. Subhra Sundar",
+    metaDescription:
+      "A strategic guide for Indian researchers building a strong profile for postdoc applications - research quality, independence, fit, and common mistakes.",
+    excerpt:
+      "A strategic guide for Indian researchers on building a strong profile for postdoc applications - research quality, independence, fit, and common mistakes.",
+    category: "Postdoc",
+    date: "Apr 2026",
+    readTime: "19 min read",
+    hasFullPost: true,
+    content: [
+      {
+        type: "p",
+        text: "Many PhD scholars approach postdoc applications with the same mental model they used for PhD admissions: assemble documents, apply broadly, and wait for the right response. This model does not transfer well. Postdoc applications are evaluated by principal investigators and hiring committees who are asking a fundamentally different set of questions - not whether you are capable of doing research, but whether you are ready to function as an independent researcher, whether your expertise fits the lab's current direction, and whether your trajectory makes sense for where their program is heading.",
+      },
+      {
+        type: "p",
+        text: "Building a strong research profile for postdoc applications is not the same as accumulating more outputs. It is about developing a coherent, credible research identity - one that communicates not just what you have done, but what you are positioned to do next, and why you are a productive fit for a specific research environment.",
+      },
+      {
+        type: "h2",
+        text: "Who This Guide Is For",
+      },
+      {
+        type: "ul",
+        items: [
+          "PhD scholars in their final one to two years who are beginning to think seriously about postdoc pathways",
+          "Recent PhD graduates preparing or actively applying for postdoctoral positions abroad",
+          "Research-oriented students who want to understand what postdoc hiring committees and PIs actually look for",
+          "Indian researchers who are uncertain whether their profile is ready, what gaps exist, and how to address them strategically before applying",
+        ],
+      },
+      {
+        type: "p",
+        text: "This guide is not written for researchers looking for a shortcut or a credential checklist. It is written for those who want to understand the underlying logic of what makes a postdoc profile compelling.",
+      },
+      {
+        type: "h2",
+        text: "What Makes Postdoc Applications Different from PhD Applications?",
+      },
+      {
+        type: "p",
+        text: "At the PhD stage, you are applying as a student with potential. Supervisors and departments are investing in your development. The evaluation combines your academic record, your fit with a research group, and the promise your profile suggests.",
+      },
+      {
+        type: "p",
+        text: "At the postdoc stage, that dynamic shifts significantly. You are applying as a researcher. The evaluation focuses on what you have already produced, how independently you have produced it, whether your expertise serves a lab's current needs, and whether your future direction aligns with the PI's program. There is far less tolerance for vagueness, and considerably more weight on the coherence of your existing work and the specificity of where you are heading.",
+      },
+      {
+        type: "p",
+        text: "Three structural differences matter:",
+      },
+      {
+        type: "p",
+        text: "**Hiring is usually direct, not institutional.** In most cases, a postdoc position is offered by a PI who decides whether to hire you - not by an admissions committee reviewing a general application pool. This makes fit with a specific lab, and the quality of your communication with specific PIs, far more important than in PhD admissions.",
+      },
+      {
+        type: "p",
+        text: "**The evaluation window is narrower.** A PhD application can draw on your undergraduate record, your trajectory over time, your personal development. A postdoc application is evaluated primarily on your PhD work - your papers, your methods, your intellectual contribution, and your stated direction. Earlier academic history matters considerably less.",
+      },
+      {
+        type: "p",
+        text: "**Recommendations carry different weight.** At the PhD stage, letters speak to potential. At the postdoc stage, they speak to demonstrated capability - how you actually work, the independence you show, and whether you are genuinely ready for the next stage of a research career.",
+      },
+      {
+        type: "h2",
+        text: "What a Strong Research Profile Actually Means",
+      },
+      {
+        type: "p",
+        text: "The phrase \"strong research profile\" is often reduced to a paper count. This is an incomplete and sometimes misleading shorthand. A strong postdoc research profile is a combination of several things working together:",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Research quality** - The significance of the questions you have worked on and the rigour with which you have pursued them",
+          "**Publication trajectory** - Not just how many papers, but where they are published, the role you played in each, and whether the body of work shows intellectual growth",
+          "**Thematic coherence** - Whether your work adds up to something recognisable - a line of inquiry, a developing expertise - rather than a collection of unrelated projects",
+          "**Methodological depth** - Whether you have developed genuine technical capability that is transferable and credible",
+          "**Independence** - The degree to which your contributions are substantively your own",
+          "**Visibility** - Whether you have begun to establish a presence in your field through talks, presentations, or collaborative work",
+          "**Future direction** - Whether you can articulate clearly and specifically what you want to do next and why",
+        ],
+      },
+      {
+        type: "p",
+        text: "A researcher with four well-placed papers in a coherent area, clear methodological identity, evidence of independence, and a well-argued future research direction is a more compelling postdoc candidate than a researcher with ten papers across disconnected topics produced primarily under close supervision.",
+      },
+      {
+        type: "h2",
+        text: "Publication Quality vs Quantity",
+      },
+      {
+        type: "p",
+        text: "Publication expectations vary significantly across fields, and there is no universal standard. What matters everywhere is the quality and relevance of what you have published - not the count.",
+      },
+      {
+        type: "p",
+        text: "For postdoc applications, PIs typically look at several things. **First authorship** is a strong signal of intellectual ownership - that you drove the work. A CV with multiple middle-author contributions but no first-author work raises questions about independence. **Journal and venue quality** is noticed: a well-executed paper in a solid field journal is stronger than a weak paper placed in a high-impact venue. **Recency** matters because work from the last two to three years speaks more directly to your current capability than papers from further back. And in collaborative work, **your specific role** - the methods you designed, the analyses you ran, the writing you led - is part of what is being evaluated.",
+      },
+      {
+        type: "p",
+        text: "A useful exercise: read your own CV as a stranger would. Does the publication list tell a coherent story about what you research and what you can do? Or does it read as a collection of whatever projects were available during the PhD?",
+      },
+      {
+        type: "h2",
+        text: "Thematic Coherence in Research",
+      },
+      {
+        type: "p",
+        text: "Thematic coherence is perhaps the most undervalued element of a strong postdoc profile. Coherence does not mean working on exactly the same problem repeatedly. It means that your body of work reflects a developing line of inquiry - that the questions you have asked are related, that the methods you have used build on each other, and that the whole adds up to a recognisable area of expertise.",
+      },
+      {
+        type: "p",
+        text: "A researcher who has worked on three connected aspects of a broader problem, using a consistent or complementary set of methods, is significantly easier to evaluate than one who has worked on three unrelated problems in three different methodological traditions. The latter may reflect genuine intellectual breadth, but it is harder for a hiring PI to understand how that researcher will contribute to a specific ongoing program.",
+      },
+      {
+        type: "p",
+        text: "This matters practically for how you present your work. Your research statement and cover letter should articulate the thread that connects your PhD projects - showing that you have a developing intellectual perspective, not just a list of completed tasks.",
+      },
+      {
+        type: "h2",
+        text: "Methodological Depth and Technical Credibility",
+      },
+      {
+        type: "p",
+        text: "Most research fields have technical skills that carry currency across labs - statistical methods, experimental techniques, computational tools, analytical frameworks, domain-specific expertise. A postdoc application is partly an argument that you bring something technically valuable to a new environment.",
+      },
+      {
+        type: "p",
+        text: "Methodological depth means more than listing skills. It means having used specific methods rigorously enough to troubleshoot them, extend them, or explain their limitations. A researcher who names a technique but cannot speak to its edge cases does not present as technically credible.",
+      },
+      {
+        type: "p",
+        text: "Identify the two or three methods or technical capabilities that represent your genuine depth. These are the areas where you can work independently from day one, answer difficult questions from an interview committee, and contribute immediately to a new lab. Present these specifically - not as a skills inventory, but as a substantive part of your research identity.",
+      },
+      {
+        type: "h2",
+        text: "Independence vs Dependency in PhD Work",
+      },
+      {
+        type: "p",
+        text: "This is one of the most important and least discussed dimensions of postdoc readiness. PhD programs vary enormously in how much intellectual autonomy students develop. Some supervisors expect near-total independence from year two; others remain closely involved in every decision. The profile that emerges at the end differs significantly - and experienced PIs are often quite good at detecting it.",
+      },
+      {
+        type: "p",
+        text: "A researcher who has driven the design, execution, analysis, and writing of their own work - even within a closely supervised lab - presents differently from one who has competently executed work fully designed and framed by others.",
+      },
+      {
+        type: "p",
+        text: "If your PhD has been closely supervised, this does not disqualify you. But it means thinking carefully about how to demonstrate what was genuinely your own - the problems you identified, the approaches you proposed, the analyses you drove, the writing you led. Be able to speak to these specifically and with honest precision.",
+      },
+      {
+        type: "h2",
+        text: "Conference Presentations, Talks, and Academic Visibility",
+      },
+      {
+        type: "p",
+        text: "Visibility in your field - through conference presentations, invited talks, workshop participation, or peer review activity - contributes to a postdoc profile in ways that are often underappreciated by PhD scholars still absorbed in executing their dissertation.",
+      },
+      {
+        type: "p",
+        text: "Conference presentations do two things. First, they signal that your work is considered relevant by others in the field. Second, they give you practice articulating your research to researchers outside your lab, which translates directly into postdoc interviews and PI conversations.",
+      },
+      {
+        type: "p",
+        text: "For Indian researchers, access to international conference funding during a PhD is sometimes limited, which creates a real disadvantage in terms of early visibility. Where this is the case, alternative forms of engagement - preprint servers, virtual conference participation, online colloquia, or recorded talks in international networks - can partially substitute. What matters is that your name and your work begin to be known outside your own lab, however that visibility is built.",
+      },
+      {
+        type: "h2",
+        text: "Collaborations and Research Network",
+      },
+      {
+        type: "p",
+        text: "There is a meaningful difference between a genuine research network and a list of people you have emailed or met briefly at a conference. The distinction matters for how this is evaluated in a postdoc application.",
+      },
+      {
+        type: "p",
+        text: "A genuine academic relationship is one built through shared intellectual work: a co-authored paper, a collaborative project, a methodological exchange that produced something tangible, or a mentorship relationship with a researcher outside your primary lab. These relationships have substance - they demonstrate that you can work productively beyond your PhD group, and they typically translate into useful letters of recommendation or credible mentions in a research statement.",
+      },
+      {
+        type: "p",
+        text: "Real visibility means your name and work are known by researchers in your area because they have engaged with your outputs - read your papers, attended your talks, cited your work, or collaborated with you. This is different from simply attending conferences or following researchers on academic platforms.",
+      },
+      {
+        type: "p",
+        text: "Superficial networking - collecting connections, sending introductory emails with no follow-up, attending events without meaningful engagement - does not build the kind of network that strengthens a postdoc application. Fewer, deeper connections built through genuine intellectual exchange are what actually help.",
+      },
+      {
+        type: "p",
+        text: "For Indian researchers whose PhD has been conducted largely within a single group, building one or two genuine external connections during the final year - through a collaborative analysis, a joint workshop, a visiting seminar that leads to real follow-up - is more valuable than attempting to expand a network broadly without substance behind it.",
+      },
+      {
+        type: "h2",
+        text: "What Makes You a Good Fit for a Postdoc Lab?",
+      },
+      {
+        type: "p",
+        text: "Postdoc labs are not looking for good researchers in the abstract. They are looking for researchers whose specific expertise, methodological capabilities, research direction, and professional maturity match what the lab needs at this particular moment in its trajectory.",
+      },
+      {
+        type: "p",
+        text: "A PI running a computational lab with several ongoing empirical projects may be looking for a postdoc who can strengthen the lab's methodological side. A PI about to launch a new research direction may be looking for someone whose PhD work sits exactly at that new intersection. A PI who has just secured funding for a specific project may be looking for someone whose track record makes them an efficient and credible hire for that defined task.",
+      },
+      {
+        type: "p",
+        text: "Before applying to any position, understand - as specifically as you can - what the lab is currently working on, where it appears to be heading, and what kind of researcher would genuinely accelerate its work right now. Then ask honestly: does that description fit me? Can I make a credible case that it does?",
+      },
+      {
+        type: "p",
+        text: "Applications that demonstrate this level of understanding are immediately distinguishable from those that do not. A cover letter that engages specifically with a PI's recent papers and connects your expertise to their current trajectory reads very differently from one that expresses general enthusiasm for their area.",
+      },
+      {
+        type: "h2",
+        text: "Can You Shift Your Research Direction at the Postdoc Stage?",
+      },
+      {
+        type: "p",
+        text: "Yes - and for many researchers, a postdoc is an appropriate time to move into an adjacent area, broaden a methodological repertoire, or reorient toward a related set of questions. A postdoc that is an exact continuation of PhD work, in the same lab with the same methods, is not always the strongest career move.",
+      },
+      {
+        type: "p",
+        text: "But the shift has to be framed clearly and credibly. A research direction change at the postdoc stage is most defensible when there is a genuine bridge: overlapping methods that apply in the new area, connected questions across the two research contexts, a technical capability that transfers directly, or a logical intellectual progression from PhD work toward a new problem.",
+      },
+      {
+        type: "p",
+        text: "What does not work is a large disciplinary jump with no articulated connection. A researcher making a significant move needs to explain the bridge with precision - what specifically transfers, why the new direction is intellectually coherent given the existing background, and what they bring to the new area that a researcher already embedded in it would not.",
+      },
+      {
+        type: "p",
+        text: "In your research statement and cover letter, the framing matters as much as the fact of the shift. A PI evaluating a candidate making a directional move is assessing whether the transition is intellectually grounded or whether it signals uncertainty about research identity. The goal is to present the shift as a deliberate, reasoned move - not as a reaction to limited opportunities in your current area.",
+      },
+      {
+        type: "h2",
+        text: "Letters of Recommendation at the Postdoc Level",
+      },
+      {
+        type: "p",
+        text: "Recommendation letters for postdoc applications carry different expectations from those at the PhD stage. The most useful letters speak in specific and credible terms: the quality of the research you produce, the independence with which you work, the nature of your intellectual contribution to a defined area, and whether you are genuinely ready for greater autonomy.",
+      },
+      {
+        type: "p",
+        text: "This means choosing recommenders thoughtfully. Your PhD supervisor's letter carries the most weight. Beyond that, letters from researchers who have directly observed your work - through collaboration, co-supervision, a visiting position, or a shared project - are substantially more informative than letters from well-known academics who know you only by reputation.",
+      },
+      {
+        type: "p",
+        text: "Give your recommenders enough context to write specific letters. Share your research statement, your publication list, your CV, and a description of the position you are applying for. A recommender who understands what you are applying for and why can write a far more targeted letter than one working from general impressions.",
+      },
+      {
+        type: "h2",
+        text: "Research Statement, Cover Letter, CV, and Future Direction",
+      },
+      {
+        type: "p",
+        text: "These documents are the primary interface between your profile and the people evaluating it. They deserve significant time and careful tailoring.",
+      },
+      {
+        type: "p",
+        text: "**Research statement.** This document asks you to articulate what you have done, what it contributes, and - critically - what you plan to do next. The future direction section is often the weakest in statements written by PhD scholars still absorbed in their dissertation. Your future direction should be specific: a research question or set of questions you want to pursue, why they are important, and how your existing expertise positions you to pursue them. Vague statements about wanting to explore new directions do not serve you well.",
+      },
+      {
+        type: "p",
+        text: "**Cover letter.** The cover letter should be tailored to the specific lab or program you are applying to. It should demonstrate genuine engagement with the PI's recent work, explain specifically why your expertise connects with their current direction, and articulate what you would contribute. A generic cover letter sent to multiple labs is identifiable immediately.",
+      },
+      {
+        type: "p",
+        text: "**CV.** A postdoc CV should lead with research experience and publications, not degrees. The presentation should make your contributions immediately legible to a reader - the role you played in each project, the outputs produced, and the capabilities developed.",
+      },
+      {
+        type: "h2",
+        text: "How Different Fields Weigh Outputs Differently",
+      },
+      {
+        type: "p",
+        text: "There is no universal postdoc profile. In many biomedical and life science fields, first-author papers in journals with recognised impact hierarchies are the primary currency. In physics, mathematics, and some engineering areas, preprints and conference proceedings carry significant weight alongside journal publications. In social sciences and interdisciplinary fields, book chapters, policy outputs, and non-traditional research products can be as important as journal papers. In computational and data-intensive fields, code, datasets, and methodological papers contribute meaningfully to a profile.",
+      },
+      {
+        type: "p",
+        text: "Understanding the output norms of your specific field - and presenting your profile against those norms rather than against a generic standard - is part of what distinguishes an informed application from a generic one.",
+      },
+      {
+        type: "h2",
+        text: "How to Identify Profile Gaps Before Applying",
+      },
+      {
+        type: "p",
+        text: "An honest self-assessment before submitting applications saves time and produces better decisions. Questions worth asking:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Do I have at least one first-author publication in a field-relevant venue, or is that gap significant for my target positions?",
+          "Does my body of work tell a coherent story, or does it appear fragmented across unrelated projects?",
+          "Can I articulate a specific future research direction, rather than a general interest?",
+          "Have I worked with enough independence to present myself as a researcher rather than only a supervised student?",
+          "Are my letters of recommendation likely to speak specifically to my capability and independence?",
+          "Is there a methodological gap that the labs I am targeting would notice?",
+        ],
+      },
+      {
+        type: "p",
+        text: "Identifying gaps a year before you intend to apply gives you time to address them. Identifying them two weeks before a deadline does not.",
+      },
+      {
+        type: "h2",
+        text: "How Indian Researchers Often Misread the Postdoc Stage",
+      },
+      {
+        type: "p",
+        text: "Several patterns appear with some regularity among Indian researchers approaching postdoc applications. These are observations worth reflecting on, not sweeping generalisations.",
+      },
+      {
+        type: "p",
+        text: "**Prioritising volume of applications over fit.** Applying to a large number of positions with near-identical materials tends to produce poor returns. Targeted applications to fewer, well-chosen positions with tailored materials often perform better than broad campaigns.",
+      },
+      {
+        type: "p",
+        text: "**Reducing profile strength to publication count.** The emphasis on paper numbers in some academic environments - sometimes explicit, sometimes ambient - can create a misalignment with how postdoc hiring actually works in many international contexts. PIs read papers, not just count them. Coherence, independence, and trajectory all enter the evaluation.",
+      },
+      {
+        type: "p",
+        text: "**Applying before the profile is genuinely ready.** The pressure to secure a postdoc before PhD completion is real, but applying with an incomplete profile - no first-author work, no clear future direction, generic letters - often produces poor outcomes and uses up application opportunities in competitive cycles.",
+      },
+      {
+        type: "p",
+        text: "**Targeting primarily by prestige rather than fit.** Competitive labs at top institutions are rarely looking for good researchers in the abstract - they are looking for researchers whose specific expertise serves their current program. A well-fitted position at a strong but less globally prominent lab can produce better research outcomes than a poorly matched position at a more recognisable institution.",
+      },
+      {
+        type: "p",
+        text: "**Underestimating the value of genuine academic relationships.** In many fields, postdoc positions are filled through networks and referrals before they are formally advertised. A researcher who has engaged with a PI's work over time, attended their talks, and built a genuine exchange is more likely to be seriously considered than an unknown applicant arriving via a cold email.",
+      },
+      {
+        type: "h2",
+        text: "How to Build a Postdoc Profile Before the PhD Ends",
+      },
+      {
+        type: "p",
+        text: "The final one to two years of a PhD are critical for postdoc positioning. Some actions that matter:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Prioritise at least one first-author paper through submission and revision - even a paper under review at a relevant venue at the time of application is a meaningful signal",
+          "Write a research statement draft, even if you are not yet applying - doing this a year before you intend to apply forces you to articulate your direction, and the gaps in your draft map what to work on",
+          "Attend at least one relevant conference and present your work - practice articulating your research to researchers outside your lab is directly useful for postdoc interviews and PI conversations",
+          "Initiate at least one genuine external collaboration - a methodological contribution to a collaborating lab, a joint workshop presentation, or a co-authored analysis adds meaningfully to your profile",
+          "Have an honest conversation with your supervisor about postdoc readiness - a good supervisor will tell you where your profile is strong, where it needs work, and what to prioritise",
+          "Begin identifying target labs and PIs a year before you want to start - this gives you time to follow their work, attend relevant events, and open correspondence without appearing rushed",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Common Mistakes Researchers Make When Preparing for Postdoc Applications",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Sending the same materials to every lab.** A cover letter that does not mention the PI's recent work or connect your expertise to their specific program is identifiable as generic and is rarely competitive.",
+          "**Treating the research statement as a thesis summary.** The research statement is a forward-looking document. A specific, well-argued future research plan is one of the most differentiating elements in a strong postdoc application.",
+          "**Choosing recommenders by seniority rather than by relevance.** A letter from a senior academic who does not know your work closely is less informative than a letter from a mid-career researcher who supervised a collaboration directly.",
+          "**Not verifying whether a lab is actually hiring.** Applying to a PI who is not currently funded or at capacity produces wasted effort. Where possible, check lab pages, recent grant databases, or ask directly whether the lab is considering new researchers.",
+          "**Applying too early.** Applying before your profile is genuinely ready - before any first-author work, before a clear research direction - makes a poor first impression that is difficult to reverse with the same PI in the same cycle.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Postdoc Profile Checklist",
+      },
+      {
+        type: "checklist",
+        items: [
+          "At least one first-author paper submitted or published in a relevant venue",
+          "A coherent research narrative connecting my PhD projects into a meaningful line of inquiry",
+          "A clearly articulated future research direction - specific questions, not general interests",
+          "A tailored research statement that speaks to each target lab's current direction",
+          "A tailored cover letter demonstrating engagement with the PI's recent work",
+          "A postdoc CV structured around research experience and publications",
+          "Recommenders identified who can speak specifically to my capability and independence",
+          "A clear understanding of each target lab's current research, funding status, and recent outputs",
+          "A realistic assessment of my competitiveness for each specific position",
+          "An honest identification of gaps, and a plan to address the addressable ones before applying",
+        ],
+      },
+      {
+        type: "note",
+        heading: "Important note",
+        text: "Postdoc structures, fellowship eligibility, visa requirements, funding expectations, and publication norms vary significantly by field, country, and institution. Information in this guide describes broad patterns and should not be treated as field-specific or institution-specific guidance. Always verify current fellowship requirements, visa regulations, and lab-level expectations from official and institutional sources. The norms in your specific discipline and your target countries are the relevant benchmark.",
+      },
+      {
+        type: "h2",
+        text: "Conclusion",
+      },
+      {
+        type: "p",
+        text: "Building a strong research profile for postdoc applications is not primarily about making the CV look full. It is about developing and communicating a coherent research identity - one that makes clear what you have contributed, how independently you contributed it, and where your work is heading next.",
+      },
+      {
+        type: "p",
+        text: "The real question a hiring PI is asking is not whether you have enough credentials. It is whether your research identity, your demonstrated independence, and your stated direction make you a credible and productive fit for their lab right now. A profile that answers that question clearly and specifically - regardless of whether it is the longest or most decorated one in the pool - is the one that gets a serious response. That clarity is what this guide is asking you to build.",
+      },
+      {
+        type: "cta",
+        text: "Postdoc readiness is one of those things that looks clearer from the outside than it does from within a PhD program - the gaps in a research profile, the weaknesses in a research statement's future direction, the mismatch between where a researcher is applying and where they are genuinely competitive. If you are approaching the end of your doctorate and want to think seriously about your postdoc profile and lab fit, explore the mentorship program to see how that kind of guidance works.",
+        linkText: "Explore the mentorship program",
+        linkHref: "/mentorship",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "How many publications do I need to be competitive for postdoc positions?",
+            a: "There is no universal number, and the expectation varies significantly by field. What matters more than count is the quality, coherence, and your demonstrated role in the work. A strong first-author paper in a respected venue typically carries more weight than several middle-author contributions. Understand the publication norms for your specific field and evaluate your profile against those norms.",
+          },
+          {
+            q: "When should I start applying for postdoc positions?",
+            a: "Begin identifying target labs and building genuine relationships with potential PIs a year before you want to start. Formal applications typically follow six to nine months before your intended start date, though this varies by field and country. Timing your applications to match your actual readiness is more important than applying as early as possible.",
+          },
+          {
+            q: "How do I find postdoc positions that fit my research profile?",
+            a: "Start with direct lab and faculty pages of researchers whose work genuinely connects with yours. Monitor official fellowship program pages and funding body announcements. Attend relevant conferences and follow the active work of PIs in your area. In many fields, positions are filled through relationships before they are formally advertised - building genuine academic connections with potential supervisors before applying is often the most effective approach.",
+          },
+          {
+            q: "How important are letters of recommendation for postdoc applications?",
+            a: "Very important, and the expectations differ from PhD-level letters. For postdoc applications, letters should speak to demonstrated capability, independence, and research quality. Your PhD supervisor's letter carries the most weight. Letters from collaborators or researchers who have directly observed your work outside your primary lab add significant value. Choose recommenders who can write with specificity, not just seniority.",
+          },
+          {
+            q: "Can I change my research direction at the postdoc stage?",
+            a: "Yes, and for many researchers it is a sensible move. But the shift needs to be framed through genuine intellectual bridges - overlapping methods, connected questions, or transferable expertise. A large disciplinary jump without a credible rationale is harder to make convincing to a hiring PI. The key is to present the transition as a deliberate, reasoned move grounded in your existing background.",
+          },
+          {
+            q: "How do I approach a PI who has not advertised an open position?",
+            a: "With a specific, substantive email that demonstrates genuine engagement with their recent work, clearly explains your background and research direction, and identifies the specific intellectual connection between your expertise and their program. Keep it concise and focused. A short, informed, well-targeted email is significantly more effective than a long, generic expression of interest.",
           },
         ],
       },
