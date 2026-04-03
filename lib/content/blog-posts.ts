@@ -81,6 +81,16 @@ export const blogPosts: BlogPostPreview[] = [
     hasFullPost: true,
   },
   {
+    slug: "apply-masters-usa-from-india",
+    title: "How to Apply for a Master's in the USA from India",
+    excerpt:
+      "A practical, strategic guide for Indian students on how to apply for a Master's in the USA - covering program types, shortlisting, documents, funding, timelines, and common mistakes to avoid.",
+    category: "Study Abroad",
+    date: "Apr 2026",
+    readTime: "18 min read",
+    hasFullPost: true,
+  },
+  {
     slug: "masters-admissions-europe-plan",
     title: "How to Plan for Masters Admissions in Europe",
     excerpt:
@@ -2181,6 +2191,484 @@ export const fullPosts: BlogPost[] = [
           {
             q: "How long can Indian students stay in Europe after graduation?",
             a: "Post-study work rights vary. Germany offers an 18-month job-seeking visa. The Netherlands offers a one-year orientation visa. The UK Graduate Route allows two years. Specific rules change, so always check the current immigration policy for your target country.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "apply-masters-usa-from-india",
+    title: "How to Apply for a Master's in the USA from India",
+    metaTitle:
+      "How to Apply for a Master's in the USA from India | Dr. Subhra Sundar",
+    metaDescription:
+      "A practical guide for Indian students applying for a Master's in the USA - program types, shortlisting, documents, funding, timelines, and common mistakes.",
+    excerpt:
+      "A practical, strategic guide for Indian students on how to apply for a Master's in the USA - covering program types, shortlisting, documents, funding, timelines, and common mistakes to avoid.",
+    category: "Study Abroad",
+    date: "Apr 2026",
+    readTime: "18 min read",
+    hasFullPost: true,
+    content: [
+      {
+        type: "p",
+        text: "Many Indian students who want to pursue a Master's in the USA share the same experience: they know they want to go, but they are not entirely sure how the process works, when to start, what universities are actually evaluating, or what a realistic plan looks like.",
+      },
+      {
+        type: "p",
+        text: "This guide addresses that gap. It is not a shallow checklist of documents to submit. It is a structured explanation of how the US Master's application process works, what it rewards, where most Indian students go wrong, and how to approach it as a thoughtful, strategic project rather than a last-minute set of forms.",
+      },
+      {
+        type: "p",
+        text: "If you are at the early or mid-planning stage and want a clear picture of what lies ahead, this is written for you.",
+      },
+      {
+        type: "h2",
+        text: "Who This Guide Is For",
+      },
+      {
+        type: "ul",
+        items: [
+          "Indian students planning to apply for a Master's program in the USA in the next one to two years",
+          "Students in their final year of undergraduate study, recently graduated, or a few years into working life",
+          "Students uncertain about where to start, how to shortlist programs, or how the application documents actually work",
+          "Students looking for a grounded, honest perspective rather than generic advice or inflated success stories",
+        ],
+      },
+      {
+        type: "p",
+        text: "This guide is not written for students who want shortcuts. It is written for students who want to understand the process well enough to make good decisions.",
+      },
+      {
+        type: "h2",
+        text: "What Makes the USA Application Process Different?",
+      },
+      {
+        type: "p",
+        text: "Indian students often assume that applying to a US university works the way it does in India - submit your marks, pay a fee, and wait. The US graduate admissions system is structured very differently, and misunderstanding that structure is one of the most common early mistakes.",
+      },
+      {
+        type: "p",
+        text: "**It is holistic, not score-based.** Admissions committees look at your full profile: academic record, trajectory, research or professional experience, quality of recommendations, and the clarity of your Statement of Purpose. A strong GPA alone does not guarantee admission. A lower GPA does not disqualify you if the rest of your application presents a coherent and credible picture.",
+      },
+      {
+        type: "p",
+        text: "**Program fit matters explicitly.** US departments want students who are well-suited to their specific program - its culture, its structure, and its outcomes. Demonstrating that fit, through your choice of program, your SOP, and your recommenders, is not optional. It is part of what you are being evaluated on.",
+      },
+      {
+        type: "p",
+        text: "**The process is decentralised.** There is no common application platform for US graduate admissions. Each university has its own portal, its own requirements, and its own deadlines. Managing this across multiple applications is a real logistical challenge and needs to be planned for.",
+      },
+      {
+        type: "p",
+        text: "**Self-funding is the norm for Master's students.** Unlike US PhD programs, most Master's programs in the USA expect students to fund themselves. Assistantships exist but are not the default, and this financial reality needs to be understood before applying.",
+      },
+      {
+        type: "h2",
+        text: "What the USA Application Process Actually Rewards",
+      },
+      {
+        type: "p",
+        text: "Before getting into the mechanics, it is worth understanding what a strong US Master's application actually looks like - because it is not simply a collection of high scores.",
+      },
+      {
+        type: "p",
+        text: "US admissions committees are evaluating whether you are ready for graduate-level work, whether you belong in their specific program, and whether you are likely to complete it and do something meaningful with it.",
+      },
+      {
+        type: "p",
+        text: "The applications that stand out tend to share certain qualities:",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Clarity of direction** - A student who knows what they want to study and why is more compelling than one who lists broad interests without focus",
+          "**Evidence of capability** - Not just GPA, but projects, research involvement, internships, or any work that shows you have done real intellectual or technical work",
+          "**Genuine program fit** - SOPs that engage with the specific department, curriculum, or faculty rather than being interchangeable across all programs",
+          "**Credible recommendations** - Letters that speak to specific work, specific capability, and specific potential - not generic praise",
+          "**A coherent story** - Your academic record, your experiences, your goals, and your program choice should all make sense together",
+        ],
+      },
+      {
+        type: "p",
+        text: "A student with a 7.8 CGPA who has done meaningful research and writes a sharp, specific SOP often outperforms a student with a 9.2 CGPA whose application has no focus. Understanding this is the foundation of a good application strategy.",
+      },
+      {
+        type: "h2",
+        text: "Choosing the Right Type of Master's Program",
+      },
+      {
+        type: "p",
+        text: "Before you shortlist universities, you need to decide what kind of Master's program you are looking for. In the USA, Master's programs broadly fall into three types.",
+      },
+      {
+        type: "p",
+        text: "**Coursework-focused professional programs.** Common in fields like computer science, data science, electrical engineering, and management. These emphasise applied skills, industry readiness, and career placement. They are typically self-funded and well-suited to students with clear industry goals.",
+      },
+      {
+        type: "p",
+        text: "**Research-oriented Master's programs.** These include a thesis component and are designed for students who want to develop genuine research depth. They suit students considering a PhD afterwards or those who want strong academic credentials in their field. Some come with limited funding opportunities.",
+      },
+      {
+        type: "p",
+        text: "**Direct PhD programs with a Master's component.** In certain fields, US universities do not offer standalone Master's programs - instead, they admit students directly to a PhD, with a Master's awarded along the way. These are typically funded. If you are seriously considering a research career, this path deserves early attention rather than being treated as a later option.",
+      },
+      {
+        type: "p",
+        text: "Matching your goals to the right type of program is the first real decision in this process. Applying to research programs with purely professional goals, or targeting professional programs when you want to pursue a PhD, creates a mismatch that is visible to any experienced admissions reader.",
+      },
+      {
+        type: "h2",
+        text: "Can You Apply for a Master's in the USA Without a Perfect Profile?",
+      },
+      {
+        type: "p",
+        text: "Yes - and this is worth saying directly, because many Indian students either rule themselves out too early or apply with unrealistic expectations based on a misreading of what competitive means.",
+      },
+      {
+        type: "p",
+        text: "The US Master's application process is holistic. No single metric determines your outcome. Committees look at your profile as a whole: your grades, the rigour of your coursework, the projects and research you have done, your professional experience if applicable, the quality of your recommendations, and the strength and clarity of your SOP.",
+      },
+      {
+        type: "p",
+        text: "This means several things practically:",
+      },
+      {
+        type: "ul",
+        items: [
+          "A student with a 7.5 CGPA from a strong department with research publications may be more competitive than a student with a 9.0 CGPA and no substantive work beyond coursework",
+          "A downward GPA trend is a concern, but it can be addressed honestly in the SOP if there were genuine circumstances",
+          "An upward grade trajectory signals something positive about your development and is noticed",
+          "Late-stage internships, research projects, or relevant professional experience can meaningfully strengthen an application even if your undergraduate record is not exceptional",
+          "Program fit and the quality of your documents often matter more than students expect",
+        ],
+      },
+      {
+        type: "p",
+        text: "None of this means that profile does not matter - it does. But not perfect is not the same as not competitive. The students who understand this make better decisions about where to apply and how to present themselves.",
+      },
+      {
+        type: "h2",
+        text: "Academic Profile and Eligibility",
+      },
+      {
+        type: "p",
+        text: "US universities for Master's programs typically look at:",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Undergraduate GPA and transcripts** - Grading scales vary across Indian universities, and admissions committees understand this. Consistent performance and academic trajectory matter. Always check whether a department has a stated minimum GPA and what the typical profile of admitted students looks like.",
+          "**Relevant coursework** - Whether your undergraduate degree aligns with what you intend to study",
+          "**Research and project experience** - Publications, dissertations, lab work, independent projects, or structured internships in relevant areas",
+          "**Professional experience** - For students applying after working, relevant industry experience can be a real asset, particularly for professional programs",
+          "**Recommendations** - From faculty or supervisors who can speak specifically about your ability and potential, not generically about your character",
+        ],
+      },
+      {
+        type: "p",
+        text: "Eligibility requirements vary significantly by program. There is no universal minimum. Always verify specific requirements from the official department admissions page.",
+      },
+      {
+        type: "h2",
+        text: "How to Shortlist Universities",
+      },
+      {
+        type: "p",
+        text: "The default approach for many Indian students is to open a ranking list, scroll through the top 50, and sort programs into buckets based on vague impressions from forums or seniors. This is not a strategy.",
+      },
+      {
+        type: "p",
+        text: "Rankings aggregate data across many dimensions - research output, faculty citations, reputation surveys - none of which tell you whether a specific department is strong in your area, whether the curriculum matches what you want to study, whether graduates go where you want to go, or whether you are likely to be competitive. Forum anecdotes and generic safe-school lists are similarly unreliable. A program that one student found easy to get into may have been difficult for someone with your profile.",
+      },
+      {
+        type: "p",
+        text: "A meaningful shortlist is built on department-level research:",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Program fit** - Does this department have faculty working on topics relevant to your interests? Does the program structure - coursework, research, thesis - match what you are looking for? Does it produce graduates doing the kind of work you want to do?",
+          "**Admission profile** - Many departments publish data on the typical profile of admitted students. Use this to calibrate honestly, not to disqualify yourself on a single metric.",
+          "**Cost and funding** - What is the total cost including tuition and living expenses? Is any departmental funding available for Master's students?",
+          "**Location and industry access** - For professional programs, proximity to relevant industry clusters matters. For research programs, the specific lab or supervisor often matters more than the city.",
+          "**Post-degree outcomes** - What do graduates from this program typically do? Do those outcomes align with your goals?",
+        ],
+      },
+      {
+        type: "p",
+        text: "Shortlisting this way takes longer. It also produces a list you can actually make a case for in your SOP - which is not a coincidence.",
+      },
+      {
+        type: "h2",
+        text: "How Many Universities Should You Apply To?",
+      },
+      {
+        type: "p",
+        text: "A reasonable range for most Indian students is 6 to 12 universities. The right number depends on how narrow your field is, how confident you are in your profile, and how much preparation time and application budget you can realistically sustain.",
+      },
+      {
+        type: "p",
+        text: "Your shortlist should include a genuine range - programs where you would need to be at your strongest to get in, programs where your profile fits well with what they typically admit, and programs where you are clearly competitive. The label matters less than the honest assessment behind it.",
+      },
+      {
+        type: "p",
+        text: "Avoid two extremes: applying only to highly competitive programs with no realistic alternatives, and applying to programs you would not actually attend. Both reflect wishful thinking rather than strategy, and both waste preparation effort.",
+      },
+      {
+        type: "h2",
+        text: "Application Documents: SOP, LOR, CV, and Transcripts",
+      },
+      {
+        type: "p",
+        text: "These components require the most preparation time and the most care. They are also where the most consequential mistakes are made.",
+      },
+      {
+        type: "h3",
+        text: "Statement of Purpose",
+      },
+      {
+        type: "p",
+        text: "The SOP is not a biography. It is not a list of achievements. It is an argument - a clear, structured explanation of what you want to study, why you want to study it, what you bring to this program, and why this specific department is the right fit for your goals.",
+      },
+      {
+        type: "p",
+        text: "A well-written SOP is tailored to each program you apply to. It engages with the department - its courses, its faculty, its approach - rather than being interchangeable. Generic SOPs are recognisable immediately and are not competitive. The SOP takes weeks of drafting and revision. Treat it accordingly.",
+      },
+      {
+        type: "h3",
+        text: "Letters of Recommendation",
+      },
+      {
+        type: "p",
+        text: "Most programs require two or three letters. The strongest letters come from faculty or supervisors who have worked with you closely enough to speak specifically about your intellectual ability, your approach to problems, and your potential for graduate-level work. A letter that says this student attended my class and received good marks is not a strong LOR.",
+      },
+      {
+        type: "p",
+        text: "Give your recommenders at least four to six weeks. Share your SOP draft, your CV, and context about the programs you are applying to. A recommender who understands your goals writes a more targeted, more useful letter.",
+      },
+      {
+        type: "h3",
+        text: "CV",
+      },
+      {
+        type: "p",
+        text: "For academic programs, a CV is typically expected. It should include your education, research and project experience, publications or presentations if any, relevant professional experience, and awards or honours. Keep it clean, honest, and specific.",
+      },
+      {
+        type: "h3",
+        text: "Transcripts",
+      },
+      {
+        type: "p",
+        text: "Most US universities accept unofficial transcripts during the application stage; official sealed transcripts are typically required at the offer or enrollment stage. Check each university's specific requirements carefully.",
+      },
+      {
+        type: "h2",
+        text: "English Tests and the GRE",
+      },
+      {
+        type: "h3",
+        text: "English Proficiency Tests",
+      },
+      {
+        type: "p",
+        text: "If your undergraduate medium of instruction was not English, most US programs require a TOEFL or IELTS score. Requirements - including minimum scores - vary by program. Some universities waive the requirement under specific conditions. Verify directly from the official admissions page. Do not assume requirements are uniform.",
+      },
+      {
+        type: "h3",
+        text: "GRE",
+      },
+      {
+        type: "p",
+        text: "The GRE landscape has changed significantly. Many US universities and departments have made it optional or removed it entirely. Some programs still require it; others include strong scores in funding decisions even when the test is listed as optional.",
+      },
+      {
+        type: "p",
+        text: "Before spending time preparing for the GRE, check the current requirement for each program on your shortlist. If it is required, or if your program explicitly indicates that scores influence funding decisions, prepare systematically. Test policies are updated regularly - always verify from the official department admissions page.",
+      },
+      {
+        type: "h2",
+        text: "Funding and Assistantship Realities for Master's Students",
+      },
+      {
+        type: "p",
+        text: "This section requires clarity, because the information circulating online - on forums, YouTube, and peer networks - is often more optimistic than the reality.",
+      },
+      {
+        type: "p",
+        text: "Most Master's programs in the USA are self-funded. Universities do not typically offer scholarships or assistantships to incoming Master's students as standard. Teaching Assistantships and Research Assistantships do exist for Master's students at some institutions, but these positions are limited, competitive, and not guaranteed at admission. They are awarded based on departmental need and individual merit, often after a student has joined and demonstrated strong performance.",
+      },
+      {
+        type: "p",
+        text: "A smaller number of universities have fellowship programs for incoming Master's students. These are merit-based, program-specific, and worth researching carefully per institution rather than assuming they are broadly available.",
+      },
+      {
+        type: "p",
+        text: "For Indian students, some external scholarship schemes from government bodies or bilateral programs may apply. These have their own eligibility criteria and application timelines.",
+      },
+      {
+        type: "p",
+        text: "What this means practically: build a realistic financial plan that does not depend on assistantships appearing after you arrive. Understand the full cost of each program you are considering, research any institution-specific funding that is genuinely available, and plan conservatively.",
+      },
+      {
+        type: "h2",
+        text: "When Indian Students Should Start Preparing",
+      },
+      {
+        type: "p",
+        text: "The most common timing mistake is starting too late. For a September intake - the standard intake for most US Master's programs - realistic preparation begins 12 to 18 months in advance.",
+      },
+      {
+        type: "p",
+        text: "Here is why that timeline matters:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Standardised tests require preparation time and may need to be retaken",
+          "Research experience, if you need to develop it, takes months to build and produce anything worth writing about",
+          "Recommender relationships require time - you cannot ask someone for a strong letter if they barely know your work",
+          "A well-written SOP takes multiple drafts over several weeks, not a weekend",
+          "Shortlisting requires genuine research at the department level, not a one-afternoon ranking exercise",
+        ],
+      },
+      {
+        type: "p",
+        text: "Students who begin in October or November for December to January deadlines are not preparing - they are reacting. The quality of that kind of application tends to show.",
+      },
+      {
+        type: "h2",
+        text: "Application Timelines",
+      },
+      {
+        type: "p",
+        text: "A general framework for a September intake - verify specific deadlines from official university pages:",
+      },
+      {
+        type: "ul",
+        items: [
+          "12 to 18 months before: Clarify goals, identify program types, begin addressing profile gaps if any",
+          "10 to 12 months before: Begin standardised test preparation",
+          "8 to 10 months before: Research and shortlist programs at the department level, identify recommenders",
+          "6 to 8 months before: Begin SOP drafting, request LORs, prepare CV, gather transcripts",
+          "3 to 6 months before: Submit applications (most deadlines fall between November and February)",
+          "March to May: Receive admission decisions",
+          "April to June: Compare offers and make your final decision",
+          "Summer before start: Visa application and pre-departure preparation",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Admission Offers and Decision-Making",
+      },
+      {
+        type: "p",
+        text: "Receiving an offer is not the end of the process. How you compare and choose between offers matters, and this decision deserves real attention rather than a default to the highest brand name.",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Program quality in your specific field** - A university's overall ranking is less useful than how the department performs in your particular area. Assess faculty research, curriculum structure, and outcomes data for your field specifically.",
+          "**Total financial cost** - Compare full costs across offers: tuition, living expenses, and any funding offered. A less prominent university that costs significantly less may be the better financial decision if outcomes are comparable.",
+          "**Any funding attached to the offer** - If an assistantship or scholarship is part of an offer, understand the conditions: hours per week, whether it is guaranteed for the full duration, renewal criteria.",
+          "**Post-degree outcomes** - Where do graduates from this specific program work? In what roles and industries? Do those trajectories align with what you are aiming for?",
+          "**Location and access** - For industry roles, geography matters. For research, the lab, supervisor, and department culture matter more than the city.",
+          "**Your honest sense of fit** - Speak with current students if possible. Attend virtual information sessions. Ask specific questions. Your intuition about where you will thrive is worth something when offers are otherwise closely matched.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Choose the program that gives you the best combination of learning environment, financial sustainability, and post-degree alignment - not simply the one with the most recognisable name.",
+      },
+      {
+        type: "h2",
+        text: "Common Mistakes Indian Students Make When Applying for a Master's in the USA",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Shortlisting by ranking rather than department-level fit.** Overall rankings tell you very little about whether a specific program is right for you, whether you are competitive for it, or whether its graduates end up where you want to be.",
+          "**Treating the SOP as a formality.** The SOP is often the single most important differentiating document in a competitive application cycle. Students who write generic, unrevised statements are at a real disadvantage.",
+          "**Choosing recommenders by seniority rather than by relationship.** A letter from a professor who knows your work closely is worth significantly more than a letter from a department head who barely knows your name.",
+          "**Assuming all programs have the same requirements.** GRE policies, English test requirements, portfolio requirements, and transcript formats vary. Always check each program's official admissions page.",
+          "**Applying close to deadlines.** Many programs review applications on a rolling basis. Applications submitted days before the deadline are at a disadvantage, particularly for competitive programs.",
+          "**Not having a financial plan.** Assuming assistantships or scholarships will materialise is not planning. The financial commitment of a US Master's is significant and needs to be understood before you apply.",
+          "**Applying only to highly ranked programs without realistic alternatives.** Ambition is reasonable. A shortlist with no realistic options is not a strategy.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Application Checklist",
+      },
+      {
+        type: "p",
+        text: "Before submitting each application, verify:",
+      },
+      {
+        type: "checklist",
+        items: [
+          "Statement of Purpose - tailored to this specific program, not a generic draft",
+          "Letters of Recommendation - all recommenders confirmed and letters submitted through the portal",
+          "CV - updated, relevant, and formatted cleanly",
+          "Official or unofficial transcripts - as required at this stage by each program",
+          "TOEFL or IELTS score report submitted (if required by this program)",
+          "GRE score report submitted (if required or beneficial for this program)",
+          "Application fee paid",
+          "All supplementary essays or short-answer questions completed",
+          "Correct program, department, and intake selected in the portal",
+          "Identity document details entered accurately",
+        ],
+      },
+      {
+        type: "note",
+        heading: "Important note",
+        text: "Requirements change. Tuition figures, English test policies, GRE requirements, funding availability, visa rules, and application deadlines are all subject to change. Everything in this guide is an orientation to how the process generally works - it is not a substitute for current official information. Verify all specifics directly from the official admissions page of each university you are applying to, the relevant government immigration authority, and the official websites of any testing organisations.",
+      },
+      {
+        type: "h2",
+        text: "Conclusion",
+      },
+      {
+        type: "p",
+        text: "Applying for a Master's in the USA from India is a serious undertaking. When approached well, it is a structured project that unfolds over months and produces a set of applications you can stand behind. When approached poorly, it becomes a stressful scramble that leads to weak applications, poor shortlisting decisions, and outcomes that could have been better.",
+      },
+      {
+        type: "p",
+        text: "The students who do this well are not always those with the strongest profiles. They are the ones who start early, research genuinely, write honestly, and make decisions based on fit rather than prestige. That shift - from reactive to strategic - is what this guide is trying to support.",
+      },
+      {
+        type: "cta",
+        text: "Applying for a Master's in the USA involves more decisions than most students expect - and the ones that matter most are not always obvious. Which type of program actually fits your goals. Which universities are genuinely worth your application effort. How to present your profile honestly and strategically. Whether your financial plan is realistic. If you want to work through this process with someone who understands both the academic side and the practical realities, explore the mentorship program.",
+        linkText: "Explore the mentorship program",
+        linkHref: "/mentorship",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "How early should Indian students start preparing to apply for a Master's in the USA?",
+            a: "Ideally 12 to 18 months before your intended start date. This allows sufficient time for test preparation, genuine department-level research, SOP drafting and revision, and requesting strong, specific recommendations. Starting three to four months before deadlines is possible but rarely produces applications of the same quality.",
+          },
+          {
+            q: "Is the GRE required for Master's programs in the USA?",
+            a: "Many US universities have made the GRE optional or removed the requirement entirely. Some programs still require it; others factor strong scores into funding decisions even when the test is listed as optional. Check the current requirement for each program directly from the official department admissions page. Policies change year to year.",
+          },
+          {
+            q: "Can Indian students get assistantships or scholarships for a Master's in the USA?",
+            a: "Some do, but it is not the norm. Most US Master's programs are self-funded. Assistantships are primarily designed for PhD students, though some departments offer limited positions to Master's students based on departmental need and individual merit. A small number of universities have fellowship programs for incoming Master's students. Research specific funding options per institution and plan your finances conservatively.",
+          },
+          {
+            q: "How many universities should Indian students apply to for a Master's in the USA?",
+            a: "A reasonable range for most students is 6 to 12 universities, including a genuine mix of ambitious, well-matched, and realistic choices. The right number depends on your field, your profile, and how well you can sustain application quality across multiple submissions. Applying to many programs without tailoring your materials does not improve your chances.",
+          },
+          {
+            q: "Does my undergraduate GPA need to meet a specific threshold?",
+            a: "Requirements vary significantly by program. There is no universal minimum. A lower GPA can sometimes be offset by strong research experience, relevant professional work, or a well-argued SOP - provided the rest of your application is genuinely strong. Check each program's stated requirements and look at published data on typical incoming student profiles where available.",
+          },
+          {
+            q: "What is the most important part of a US Master's application?",
+            a: "Applications are evaluated holistically - there is no single component that overrides all others. That said, the Statement of Purpose often has the most differentiation potential because it is uniquely yours. Strong, specific recommendations from people who know your work closely are equally critical. Grades, test scores, and your CV form the baseline; the SOP and LORs are often what determine a competitive decision.",
           },
         ],
       },
