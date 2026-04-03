@@ -110,13 +110,14 @@ export const blogPosts: BlogPostPreview[] = [
     readTime: "6 min read",
   },
   {
-    slug: "phd-finding-supervisor",
+    slug: "finding-right-phd-supervisor",
     title: "PhD Applications: Finding the Right Supervisor",
     excerpt:
-      "Learn a structured method for identifying labs, evaluating fit, and writing focused outreach emails.",
+      "A strategic guide for Indian students on finding the right PhD supervisor - research fit, funding, lab culture, outreach, and common mistakes.",
     category: "PhD",
-    date: "Mar 2026",
-    readTime: "8 min read",
+    date: "Apr 2026",
+    readTime: "18 min read",
+    hasFullPost: true,
   },
   {
     slug: "postdoc-research-profile",
@@ -3248,6 +3249,461 @@ export const fullPosts: BlogPost[] = [
           {
             q: "Is the GRE required for European Master's programs?",
             a: "The GRE is not typically required for European Master's programs. The vast majority of European universities do not ask for it. A small number of internationally competitive programs or specific research institutes may request it. Check each program's official admissions page to confirm.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "finding-right-phd-supervisor",
+    title: "PhD Applications: Finding the Right Supervisor",
+    metaTitle:
+      "PhD Applications: Finding the Right Supervisor | Dr. Subhra Sundar",
+    metaDescription:
+      "A strategic guide for Indian students finding the right PhD supervisor - research fit, funding, lab culture, outreach, and common mistakes.",
+    excerpt:
+      "A strategic guide for Indian students on finding the right PhD supervisor - research fit, funding, lab culture, outreach, and common mistakes.",
+    category: "PhD",
+    date: "Apr 2026",
+    readTime: "18 min read",
+    hasFullPost: true,
+    content: [
+      {
+        type: "p",
+        text: "For many PhD applications, particularly in the UK and Europe, identifying the right supervisor is not a preliminary step before the real application begins - it is central to the application itself. In the USA, the structure is somewhat different: you typically apply to a program or department, and supervisor relationships develop during or after admission. But even in that model, having thought carefully about potential supervisors, and in some fields having made contact with them before applying, matters significantly to how the application proceeds.",
+      },
+      {
+        type: "p",
+        text: "In all cases, who you work with shapes your research direction, your funding situation, your working environment, your publication record, and - more than most students want to acknowledge - your experience of the next four to six years.",
+      },
+      {
+        type: "p",
+        text: "Many Indian students approaching PhD applications understand this in the abstract but do not act on it in practice. They approach the search the way they might approach a job application: send enough emails to enough professors and see who responds. That approach misunderstands the nature of the relationship, the academic context, and what an effective search actually looks like.",
+      },
+      {
+        type: "h2",
+        text: "Who This Guide Is For",
+      },
+      {
+        type: "ul",
+        items: [
+          "Indian students preparing to apply for a PhD program in the USA, UK, Europe, or another research-intensive destination",
+          "Students uncertain about how to identify suitable supervisors and evaluate whether a faculty member is genuinely the right fit",
+          "Students tempted to treat the search as a volume exercise rather than a strategic one",
+          "Students confused about how supervisor matching works differently across systems",
+          "Students serious about research who want to make a decision that will hold up for the full duration of their doctoral degree",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Why Finding the Right Supervisor Matters So Much",
+      },
+      {
+        type: "p",
+        text: "The PhD supervisor relationship is unlike most other relationships in academic or professional life. Your supervisor is not just an administrator who signs off on your progress. In most systems, they are the person who shapes your research direction, controls access to funding and equipment, writes the most consequential recommendation letters of your early career, introduces you to collaborators and opportunities, and makes the day-to-day intellectual environment of your doctoral work what it is.",
+      },
+      {
+        type: "p",
+        text: "A strong supervisor match - where research interests genuinely align, where supervision style fits how you work, and where the environment is stimulating and supportive - produces PhD students who publish well, complete on time, and move into strong subsequent positions.",
+      },
+      {
+        type: "p",
+        text: "A poor match - even with a globally recognised professor at a highly ranked institution - can produce the opposite: stalled research, difficult dynamics, delayed completion, and real damage to confidence and motivation. This is not about finding a famous supervisor. It is about finding the right one.",
+      },
+      {
+        type: "h2",
+        text: "What \"Supervisor Fit\" Actually Means",
+      },
+      {
+        type: "p",
+        text: "Students often reduce supervisor fit to research topic. If the professor works on something close to what you want to study, they assume the fit is good. This is a significant oversimplification. Supervisor fit has at least four dimensions.",
+      },
+      {
+        type: "p",
+        text: "**Research and topic alignment.** Does this professor work on the specific questions you want to pursue, or merely in the same broad area? A professor who works on machine learning and a student who wants to do natural language processing are in the same field but may share little meaningful research overlap. The closer the alignment, the more engaged your supervisor will be in your actual work.",
+      },
+      {
+        type: "p",
+        text: "**Methodological alignment.** Does the professor's approach to research - computational, experimental, theoretical, qualitative, clinical - match how you want to work? A student interested in quantitative empirical methods supervised by someone whose entire lab focuses on theoretical modelling will feel the mismatch constantly.",
+      },
+      {
+        type: "p",
+        text: "**Supervision style and working relationship.** Some supervisors are hands-on and meet students weekly. Others give significant autonomy and expect students to self-direct. Neither is inherently better, but the mismatch between what you need and what your supervisor offers is a real and persistent problem.",
+      },
+      {
+        type: "p",
+        text: "**Lab environment and culture.** Is the lab collaborative or competitive? Is there a culture of publishing together, of supporting one another's work, of open intellectual exchange? These questions affect the quality of your doctoral experience in ways that are hard to recover from if the answer turns out to be no.",
+      },
+      {
+        type: "p",
+        text: "Evaluating fit on all four dimensions requires more research than reading a professor's homepage, and more honesty than most students bring to the process.",
+      },
+      {
+        type: "h2",
+        text: "How PhD Systems Differ Across the USA, UK, and Europe",
+      },
+      {
+        type: "p",
+        text: "The mechanics of supervisor matching differ significantly across systems. Understanding which model applies to your target programs shapes how and when you search.",
+      },
+      {
+        type: "p",
+        text: "**USA.** In most US PhD programs, you apply to a department or program rather than to a specific supervisor. Supervisor relationships typically develop after admission - through lab rotations in some fields, or through ongoing conversations that begin before or during the application cycle in others. The extent to which pre-application contact with faculty matters varies considerably by field and department. In some life sciences programs, lab rotations are standard and pre-application contact may be less decisive. In other fields, students who have had substantive exchanges with potential supervisors before applying may be better positioned when applications are reviewed. Understanding the norm for your specific field and department - ideally from the department's own graduate admissions guidance - is more reliable than any general rule.",
+      },
+      {
+        type: "p",
+        text: "**UK.** UK PhD applications work in two main ways. Some programs advertise specific funded projects with named supervisors. You apply to the project, the research direction is largely pre-defined, and the supervisor is attached to it. Other routes - particularly fellowship-track or self-funded applications - require you to propose your own research direction and identify a willing supervisor before the formal application is submitted. Pre-application contact with potential supervisors is standard practice in the second model and is expected.",
+      },
+      {
+        type: "p",
+        text: "**Europe.** European PhD positions vary significantly by country. In Germany, the Netherlands, Switzerland, Norway, Denmark, and Sweden, funded PhD positions are frequently advertised as employment contracts attached to specific labs or projects. Some European programs operate more like the UK or US model. In all cases, understanding how the specific country and institution structure their doctoral recruitment is essential before making decisions about when and how to reach out.",
+      },
+      {
+        type: "h2",
+        text: "Project-Based vs Open-Ended PhD Applications",
+      },
+      {
+        type: "p",
+        text: "This distinction has direct consequences for how you approach the supervisor search.",
+      },
+      {
+        type: "p",
+        text: "**Project-based positions** have a defined research question, often a pre-agreed methodology, and a funded position attached. The supervisor has already shaped the direction. Your task is to assess whether the project genuinely interests you, whether your background prepares you for it, and whether this supervisor is someone you want to work with for three to five years.",
+      },
+      {
+        type: "p",
+        text: "**Open-ended applications** require you to arrive with your own research direction, articulated in a research proposal. The supervisor agrees to take you on because your proposed direction intersects meaningfully with their interests. Here, finding the right supervisor is an active intellectual task: you need to identify someone whose current work genuinely connects with what you want to do, and make a case for why that connection is productive.",
+      },
+      {
+        type: "p",
+        text: "Both models require a clear sense of your own research direction before you begin searching. A student who does not know what they want to study has no meaningful basis for evaluating fit in either model.",
+      },
+      {
+        type: "h2",
+        text: "How to Find Potential PhD Supervisors",
+      },
+      {
+        type: "p",
+        text: "Finding potential supervisors is itself a research task. It requires reading, comparing, and evaluating - not scrolling and saving names.",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Department and faculty pages** - University department websites list faculty with research interests and lab affiliations. Sometimes they explicitly note whether a professor is taking students. These are a starting point, not an endpoint.",
+          "**Lab or group pages** - Many active researchers maintain their own lab websites with current project descriptions, lists of PhD students, recent publications, and occasionally explicit statements about openings. A lab page that has not been updated in several years is a meaningful signal.",
+          "**Recent publications** - Reading two or three papers published by a potential supervisor in the last two to three years tells you more about what they are actually working on than any profile summary.",
+          "**PhD vacancy portals** - Platforms such as FindAPhD, EURAXESS, and DAAD advertise funded positions with named supervisors and project descriptions. These are practically useful starting points, particularly for project-based systems in the UK and Europe.",
+          "**Conference programs and preprint servers** - Checking who is presenting at the most relevant conferences in your field, and who is uploading recent work to arXiv, bioRxiv, SSRN, or similar repositories, tells you who is currently intellectually active in the space.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Reading Faculty Profiles, Lab Pages, and Recent Papers",
+      },
+      {
+        type: "p",
+        text: "This step deserves more time than most students give it. Reading a faculty profile and seeing a research interest that overlaps with yours is a weak signal. What you are actually trying to determine is: is this person working on questions I find genuinely interesting right now? Is there an active intellectual program here that I could contribute to?",
+      },
+      {
+        type: "p",
+        text: "For that, you need to read their recent work. Not only the abstract - the introduction and discussion sections at minimum, the full paper where possible. You are asking: What question is this person trying to answer? What gap in the literature are they working in? Could I contribute meaningfully to this inquiry?",
+      },
+      {
+        type: "p",
+        text: "This process is slower than scanning faculty pages. It is also the only way to form a genuine view of research fit - and the only preparation that makes a first email or research statement credible. A student who can speak to a professor's actual recent work occupies a completely different position from one who mentions only a general field.",
+      },
+      {
+        type: "h2",
+        text: "How to Judge Whether a Professor Is Actively Supervising",
+      },
+      {
+        type: "p",
+        text: "A strong publication record does not confirm that a professor is currently taking students. Before committing time to an application, look for active signals:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Is the lab page updated within the last one to two years?",
+          "Are PhD vacancies listed on the department website?",
+          "Do recent publications include PhD student co-authors?",
+          "Are there recent PhD alumni and are their subsequent positions visible?",
+          "Does the faculty page mention availability for new students?",
+        ],
+      },
+      {
+        type: "p",
+        text: "A lab page that has not been updated in several years, combined with no listed vacancies and no recent student co-authors on publications, warrants caution. In systems where pre-application contact is appropriate, a brief, specific email asking about current availability is both normal and informative - and the quality of the response is itself useful data.",
+      },
+      {
+        type: "h2",
+        text: "How to Narrow a Long List into a Serious Supervisor Shortlist",
+      },
+      {
+        type: "p",
+        text: "At the early stage of a supervisor search, a long list of potential faculty is normal. The goal is to narrow it systematically into a small shortlist of serious candidates - typically three to eight supervisors whose research genuinely aligns with yours and who show signs of actively supervising students.",
+      },
+      {
+        type: "p",
+        text: "**First filter: topic and method.** Go through your initial list and remove anyone whose work, when you actually read it, does not connect with what you want to do. Be honest. A tangential connection is not a fit. After this filter, your list should be significantly shorter.",
+      },
+      {
+        type: "p",
+        text: "**Second filter: current activity.** For everyone remaining, check whether the lab page is updated, whether there are recent publications with student co-authors, and whether any vacancies or student openings are visible. Remove professors who show no signs of actively running a student group.",
+      },
+      {
+        type: "p",
+        text: "**Third filter: funding and position type.** For each remaining candidate, investigate whether funded positions exist or are likely. In project-based systems, check whether a relevant vacancy is advertised. In open-ended systems, assess whether the supervisor has active external funding. Remove candidates where the funding picture is unclear and there is no obvious path to a funded position.",
+      },
+      {
+        type: "p",
+        text: "**Fourth filter: supervision signals.** For the candidates who remain, dig into supervision quality: alumni career outcomes, student co-author patterns, any publicly available student feedback, and whether the supervision style described (in papers, interviews, or lab pages) seems compatible with how you work.",
+      },
+      {
+        type: "p",
+        text: "What remains after these four filters is your serious shortlist - the supervisors worth reading more carefully, preparing a tailored research statement for, and reaching out to in a specific, informed way.",
+      },
+      {
+        type: "h2",
+        text: "Funding and Why It Matters in the Supervisor Search",
+      },
+      {
+        type: "p",
+        text: "Funding is not peripheral to the supervisor search. It is central to it. In most competitive PhD systems, the strongest positions are funded: they include a stipend, tuition coverage, and sometimes additional research support. Whether a position is funded, and what the funding source is, affects the PhD experience significantly.",
+      },
+      {
+        type: "p",
+        text: "A supervisor with active external grant funding typically has more resources to support students - for conference attendance, equipment access, and collaborative visits. A supervisor without current external funding may be less able to provide that support.",
+      },
+      {
+        type: "p",
+        text: "For project-based positions, funding is usually specified in the advertisement. For open-ended applications - common in the UK and parts of Europe - the funding question requires explicit investigation. Is the supervisor expecting you to compete for an institutional studentship? Are they in a position to support you through their own grants? Are you expected to bring external funding?",
+      },
+      {
+        type: "p",
+        text: "Indian students should understand that self-funded PhDs in the UK and Europe are possible but require significant financial resources and are not always the right strategic choice when funded positions exist in the same or adjacent fields. Planning the funding picture honestly, before applying, prevents serious difficulties later.",
+      },
+      {
+        type: "h2",
+        text: "Lab Size, Supervision Style, and Academic Culture",
+      },
+      {
+        type: "p",
+        text: "These factors are harder to assess from the outside but matter significantly for the lived experience of a PhD.",
+      },
+      {
+        type: "p",
+        text: "**Lab size** affects how much direct access you are likely to have to the supervisor. A very large lab may mean working primarily with postdocs or senior students rather than the professor directly. A small lab may mean closer supervision - or, if the supervisor is highly stretched across multiple commitments, less support overall.",
+      },
+      {
+        type: "p",
+        text: "**Supervision style** - whether hands-on or hands-off, directive or collaborative - varies enormously between individuals and is not reliably predicted by field or institution. Asking directly about how a supervisor typically works with students is a legitimate and important question, and most supervisors will answer honestly.",
+      },
+      {
+        type: "p",
+        text: "**Academic culture** is best assessed by speaking with current students. How they describe working in the lab, how they speak about their supervisor, and the specificity or vagueness of their responses are among the most informative things available to an applicant.",
+      },
+      {
+        type: "h2",
+        text: "What to Ask a Current PhD Student in the Lab",
+      },
+      {
+        type: "p",
+        text: "If you can make contact with a current or recent PhD student in a potential supervisor's lab - through LinkedIn, a conference, or a lab website - the conversation is worth having. Most PhD students are willing to talk briefly with prospective applicants. Here is what to ask:",
+      },
+      {
+        type: "ul",
+        items: [
+          "**On supervision:** How often do you meet your supervisor? Does she or he engage closely with the detail of your research, or is the relationship more hands-off? Has the supervision style matched what you expected when you joined?",
+          "**On research direction:** Did you have significant input into defining your research direction, or was it largely defined before you arrived? How does your supervisor respond when the work changes direction or runs into difficulty?",
+          "**On publication and expectations:** What is the lab's approach to authorship and publication? Are students expected to publish during the PhD, and is there support for getting work submitted and revised?",
+          "**On funding and resources:** Are conference attendance, equipment, and collaborative visits generally supported? Have there been any difficulties with funding continuity during your time here?",
+          "**On the broader environment:** How would you describe the culture in the lab? Is it collaborative? Do people support each other's work? Is it a place you would choose again?",
+        ],
+      },
+      {
+        type: "p",
+        text: "You are not looking for a list of complaints or a sales pitch. You are listening for specificity, consistency, and the quality of how the person talks about their work and their supervisor. Vague, guarded, or notably deflecting answers are as informative as direct ones.",
+      },
+      {
+        type: "h2",
+        text: "How Indian Students Often Approach This the Wrong Way",
+      },
+      {
+        type: "p",
+        text: "The most common mistake is volume without targeting. Students identify a list of thirty or fifty professors across a broad field, send each a near-identical email expressing enthusiasm for working under their guidance, and wait to see who responds. This approach consistently underperforms.",
+      },
+      {
+        type: "p",
+        text: "Generic emails are immediately identifiable. Any experienced faculty member can recognise a mass-sent message. They tend not to respond - not from hostility, but because a student who has not engaged with their actual work is not a credible applicant at this stage.",
+      },
+      {
+        type: "p",
+        text: "Broad targeting also signals an unclear research direction. An email that mentions only a general area does not tell a potential supervisor what you would contribute to their specific research program. Precision is what signals intellectual readiness.",
+      },
+      {
+        type: "p",
+        text: "Prestige-driven selection is the other common pattern. Students target professors primarily because of institutional ranking or citation count, without seriously engaging with whether the research direction fits. A less prominent professor with active funding, a recently updated lab, relevant recent publications, and a track record of producing well-placed graduates may be a far better supervisor than a famous name whose active research has moved away from what you want to do, or who takes on more students than they can meaningfully supervise.",
+      },
+      {
+        type: "h2",
+        text: "What to Prepare Before You Reach Out",
+      },
+      {
+        type: "p",
+        text: "Before contacting any potential supervisor, you should have:",
+      },
+      {
+        type: "ul",
+        items: [
+          "**A clear research direction** - Not just a broad topic, but a specific set of questions you want to pursue, why they interest you, and how they connect to what the supervisor is currently working on. This need not be a complete research proposal, but it must be specific enough to demonstrate genuine intellectual engagement.",
+          "**A research-appropriate CV** - For PhD applications, a CV should include your academic background, any research experience, publications or conference presentations if any, relevant technical skills, and your undergraduate thesis if applicable.",
+          "**Evidence of reading** - You should have read at least two or three recent papers from any professor you plan to contact. A credible first email is impossible to write without this preparation.",
+          "**An honest self-assessment** - Does your background give you a realistic basis for applying to this program? Are there gaps that your application will need to address transparently? Being honest with yourself before reaching out saves time for both parties.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Should You Contact a Supervisor Before Applying?",
+      },
+      {
+        type: "p",
+        text: "In many cases, yes - but the answer depends on the system and the application type.",
+      },
+      {
+        type: "p",
+        text: "In the **USA**, pre-application contact is common in many fields and may influence how an application is received. However, the degree to which it matters varies significantly by department and discipline, and the department's own graduate admissions guidance is the most reliable source. In some fields, departmental admissions committees play a central role and supervisor contact has less influence on initial admission decisions.",
+      },
+      {
+        type: "p",
+        text: "In the **UK**, for open-ended PhD applications, supervisor contact before applying is expected and in most cases necessary - the supervisor needs to agree in principle before a formal application is submitted. For project-based applications, contact may be less critical but is often welcomed.",
+      },
+      {
+        type: "p",
+        text: "In **Europe**, for advertised funded positions, contact with the listed supervisor before applying is common and usually appropriate. For unsolicited applications, conventions vary significantly by country and institution.",
+      },
+      {
+        type: "p",
+        text: "The quality of the contact matters more than the simple fact of it. A practical structure: one paragraph about their recent work and why it connects to what you want to pursue. One paragraph about your background and specific research direction. One clear, specific question - about current openings, about whether your proposed direction fits with where the lab is heading, or about a methodological question you are genuinely wrestling with. Nothing longer is usually necessary or helpful.",
+      },
+      {
+        type: "h2",
+        text: "Green Flags and Red Flags When Evaluating a Supervisor",
+      },
+      {
+        type: "h3",
+        text: "Green Flags",
+      },
+      {
+        type: "ul",
+        items: [
+          "Recent publications with PhD student co-authors",
+          "Updated lab page with active project descriptions",
+          "Clear, responsive, and substantive communication in early contact",
+          "Alumni from the lab in strong subsequent positions - academic, industry, or research",
+          "Explicit confirmed funding for PhD positions",
+          "Current students who speak specifically and positively about their experience",
+          "Clear articulation of supervision approach and expectations when asked directly",
+        ],
+      },
+      {
+        type: "h3",
+        text: "Red Flags",
+      },
+      {
+        type: "ul",
+        items: [
+          "A significant gap in recent publications",
+          "Lab page not updated in several years",
+          "Vague, delayed, or non-committal responses to direct questions about availability or supervision",
+          "Alumni whose subsequent careers are absent from any public record",
+          "Current students who give evasive or notably guarded answers",
+          "A professor listed at multiple institutions with very broad interests and no clearly active projects",
+          "Informal promises of funding without a confirmed source",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Common Mistakes Students Make When Searching for a PhD Supervisor",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Choosing primarily by institution rank.** A supervisor at a lower-ranked university who is actively funded, recently published, and genuinely engaged with your research direction may offer a far better PhD than a distant name at a prestigious institution.",
+          "**Not reading recent publications.** Reading only a faculty profile summary is insufficient to evaluate genuine fit.",
+          "**Sending mass emails without personalisation.** This signals a lack of preparation and produces either no response or a polite rejection.",
+          "**Ignoring the funding reality.** Applying to supervisors who are not currently funded without understanding what that means for your stipend, your research support, and your working conditions.",
+          "**Not speaking with current students.** They are often the most honest and informative source of information about supervision quality and lab culture.",
+          "**Confusing a positive email response with a confirmed offer.** A professor who responds positively to an initial inquiry has not agreed to supervise you and has not confirmed funding. Clarity on both requires explicit follow-up.",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Supervisor Search Checklist",
+      },
+      {
+        type: "checklist",
+        items: [
+          "I have read at least two recent publications from this supervisor and can speak to their actual work",
+          "I can articulate what specific question I want to pursue and how it connects to their current research",
+          "I have confirmed that this supervisor is currently taking students",
+          "I understand the funding structure - stipend, tuition, duration, and source",
+          "I have reviewed the lab's recent PhD alumni and their subsequent positions",
+          "I have, where possible, had a conversation with a current PhD student in this lab",
+          "My CV and research statement are tailored to this specific application",
+          "I understand whether pre-application contact is appropriate in this system and have made it well",
+          "I have a realistic assessment of my profile's competitiveness for this position",
+          "I am applying because of genuine research alignment - not only because of institutional prestige or because this supervisor replied first",
+        ],
+      },
+      {
+        type: "note",
+        heading: "Important note",
+        text: "Supervisor roles, PhD funding structures, application processes, and institutional requirements vary significantly across countries, disciplines, and individual universities. Information in this guide describes general patterns and should not be treated as specific guidance for any particular institution or program. Always verify current processes directly from the official department or program admissions page, and from any relevant national funding body. The most authoritative source is always the institution itself.",
+      },
+      {
+        type: "h2",
+        text: "Conclusion",
+      },
+      {
+        type: "p",
+        text: "Finding the right PhD supervisor is one of the most consequential decisions in a research career. The students who make it well are the ones who know what they want to study before they begin searching, who do the reading before they make contact, who evaluate supervisors on genuine fit rather than name recognition, and who ask honest questions about funding, supervision style, and lab culture.",
+      },
+      {
+        type: "p",
+        text: "The students who struggle are often the ones who treated the search as a numbers game, chose primarily on prestige, or accepted a position simply because a supervisor responded first. The goal is not to find the most famous professor who replies to your email. It is to find the supervisor, project, and research environment that are genuinely right for the work you want to do - and the researcher you want to become. That distinction is worth holding on to throughout the search.",
+      },
+      {
+        type: "cta",
+        text: "Searching for the right PhD supervisor is one of the parts of the application process where clear thinking and specific preparation make the most difference - knowing what to look for, how to read a research lab, how to structure an initial contact, and how to evaluate a position honestly. If you are preparing PhD applications and want structured guidance on finding genuine fit and approaching the process strategically, explore how the mentorship program works.",
+        linkText: "Explore the mentorship program",
+        linkHref: "/mentorship",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            q: "What is the most important factor when choosing a PhD supervisor?",
+            a: "Research alignment is the most important factor - but it needs to be understood specifically, not broadly. The supervisor needs to be actively working on questions close to what you want to pursue, not just in the same general field. Beyond topic, supervision style, funding availability, and lab culture all affect whether a PhD goes well. Evaluating all of these, not just research area, is what the search requires.",
+          },
+          {
+            q: "Should I contact a PhD supervisor before applying?",
+            a: "In many systems, yes - but the conventions vary significantly. In the UK for open-ended PhD applications, supervisor agreement before applying is typically necessary. In Europe for advertised positions, pre-application contact is usually welcomed. In the USA, the degree to which pre-application contact matters varies by field and department - check the department's own graduate admissions guidance. Where contact is appropriate, the quality of that contact matters more than the fact of it.",
+          },
+          {
+            q: "How do I know if a PhD supervisor is currently taking students?",
+            a: "Check whether their lab page has been updated recently, whether PhD vacancies are listed on the department website, whether recent publications include PhD student co-authors, and - most directly - ask politely in a specific initial email. The response to that question, and how quickly and substantively they respond, is itself informative.",
+          },
+          {
+            q: "How many PhD supervisors should I contact?",
+            a: "Targeted quality matters more than volume. Contacting five to ten potential supervisors with specific, well-researched emails is more productive than sending generic messages to thirty or fifty professors. Each contact should be grounded in having read recent work and having a clear sense of why your research direction connects with theirs.",
+          },
+          {
+            q: "How is finding a PhD supervisor different in Europe versus the USA?",
+            a: "In the USA, you typically apply to a program and supervisor relationships develop during or after the process, though pre-application contact is common in some fields. In the UK and many parts of Europe, particularly for funded positions, supervisor identification happens before or as part of the formal application. In Europe, many funded positions are advertised as employment contracts attached to specific projects. Understanding the model for your target country, field, and institution is essential before deciding how and when to approach potential supervisors.",
+          },
+          {
+            q: "Can I do a PhD with a supervisor who is not in my exact subfield?",
+            a: "It depends on how significant the gap is. Working at the edge of a supervisor's interests can be productive if they are actively expanding in that direction. But a meaningful mismatch between your research direction and a supervisor's active work creates real problems - the supervision, feedback, and intellectual engagement you receive is most useful when your supervisor is genuinely interested in what you are working on.",
           },
         ],
       },
