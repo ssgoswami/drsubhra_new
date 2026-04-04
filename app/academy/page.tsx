@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Dr Subhra Academy | STEM Courses, Mock Tests & Career Guidance",
   description:
     "Professional courses in research methodology, AI/ML, and image processing. Mock tests for JEE, ISI, and school exams. Career guidance and student Q&A for STEM learners.",
-  alternates: { canonical: "/academy" },
+  alternates: { canonical: "/academy/" },
   openGraph: {
     title: "Dr Subhra Academy | STEM Courses, Mock Tests & Career Guidance",
     description:

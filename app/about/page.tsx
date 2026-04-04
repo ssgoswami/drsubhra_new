@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "About Dr Subhra Sundar | Researcher, Postdoc at Harvard Medical School",
   description:
     "Dr Subhra Sundar is a postdoctoral researcher at Harvard Medical School and Erasmus Mundus PhD holder. Learn about the background, mentorship philosophy, and research journey.",
-  alternates: { canonical: "/about" },
+  alternates: { canonical: "/about/" },
   openGraph: {
     title: "About Dr Subhra Sundar | Researcher, Postdoc at Harvard Medical School",
     description:

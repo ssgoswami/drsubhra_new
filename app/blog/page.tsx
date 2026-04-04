@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Blog | Study Abroad Tips, PhD Guides & Research Insights - Dr Subhra Sundar",
   description:
     "Practical guides on Masters, PhD, and Postdoc applications abroad - SOP writing, research fit, university selection, funding strategies, and career direction for STEM students.",
-  alternates: { canonical: "/blog" },
+  alternates: { canonical: "/blog/" },
   openGraph: {
     title: "Blog | Study Abroad Tips, PhD Guides & Research Insights - Dr Subhra Sundar",
     description:

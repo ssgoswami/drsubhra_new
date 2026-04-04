@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Contact Dr Subhra Sundar | Mentorship Enquiries & Bookings",
   description:
     "Get in touch with Dr Subhra Sundar for study abroad mentorship, Academy information, or collaboration enquiries. Structured responses within two business days.",
-  alternates: { canonical: "/contact" },
+  alternates: { canonical: "/contact/" },
   openGraph: {
     title: "Contact Dr Subhra Sundar | Mentorship Enquiries & Bookings",
     description:

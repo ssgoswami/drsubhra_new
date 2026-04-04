@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Study Abroad Mentorship | Masters, PhD & Postdoc Applications - Dr Subhra Sundar",
   description:
     "Personalised, structured mentorship for Indian students applying to fully funded Masters, PhD, and Postdoc programmes in Europe and the USA. Clear scope, real strategy, defined deliverables.",
-  alternates: { canonical: "/mentorship" },
+  alternates: { canonical: "/mentorship/" },
   openGraph: {
     title: "Study Abroad Mentorship | Masters, PhD & Postdoc Applications - Dr Subhra Sundar",
     description:

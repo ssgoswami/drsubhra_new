@@ -9,7 +9,8 @@ export const metadata: Metadata = {
   title: "Book a session",
   description:
     "Book a one-to-one study abroad mentorship session with Dr Subhra. Structured intake and clear scope for Masters, PhD, and Postdoc applicants.",
-  alternates: { canonical: "/mentorship/booking" },
+  alternates: { canonical: "/mentorship/booking/" },
+  robots: { index: false, follow: true },
 };
 
 export default function BookingPage() {

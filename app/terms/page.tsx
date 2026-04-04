@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Terms of Use | Dr Subhra Sundar",
   description:
     "Terms of use for drsubhra.com - rules governing use of this website, mentorship services, and Academy programmes.",
-  alternates: { canonical: "/terms" },
+  alternates: { canonical: "/terms/" },
   openGraph: {
     title: "Terms of Use | Dr Subhra Sundar",
     description: "Terms of use for drsubhra.com - rules governing use of this website and its services.",

@@ -44,11 +44,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
     },
     {
-      url: url(routes.booking),
-      priority: 0.6,
-      changeFrequency: "monthly",
-    },
-    {
       url: url(routes.privacy),
       priority: 0.3,
       changeFrequency: "yearly",

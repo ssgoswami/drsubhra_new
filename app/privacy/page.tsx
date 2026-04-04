@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | Dr Subhra Sundar",
   description:
     "Privacy policy for drsubhra.com - how personal data collected through enquiries and bookings is stored, used, and protected.",
-  alternates: { canonical: "/privacy" },
+  alternates: { canonical: "/privacy/" },
   openGraph: {
     title: "Privacy Policy | Dr Subhra Sundar",
     description: "Privacy policy for drsubhra.com - how personal data is stored, used, and protected.",
