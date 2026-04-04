@@ -321,23 +321,23 @@ export default function AboutPage() {
           <div className="grid gap-x-12 gap-y-6 sm:grid-cols-2">
             <CredentialItem
               label="PhD in Electronic Systems Engineering"
-              detail="Technical University of Madrid (UPM), Spain, 2021 - awarded Sobresaliente (Outstanding) distinction. Research on 2D-3D image registration for image-guided intraoperative radiotherapy."
+              detail="Technical University of Madrid (UPM), Spain - awarded Sobresaliente (Outstanding) distinction. Research on 2D-3D image registration for image-guided intraoperative radiotherapy."
             />
             <CredentialItem
               label="Erasmus Mundus Scholar"
-              detail="European Union (2010) - competitive merit-based scholarship for advanced doctoral studies in Europe at the Technical University of Madrid."
+              detail="European Union - competitive merit-based scholarship for advanced doctoral studies in Europe at the Technical University of Madrid."
             />
             <CredentialItem
               label="Margarita Salas Postdoctoral Fellow"
-              detail="European Union and Government of Spain (2022) - two-year competitive postdoctoral fellowship recognising research quality and international academic potential."
+              detail="European Union and Government of Spain - two-year competitive postdoctoral fellowship recognising research quality and international academic potential."
             />
             <CredentialItem
               label="Postdoctoral Fellow, Harvard Medical School"
-              detail="Harvard University (2023) - research in 3D medical image analysis, deep learning, and AI-assisted workflows for robotics-guided surgical procedures."
+              detail="Harvard University - research in 3D medical image analysis, deep learning, and AI-assisted workflows for robotics-guided surgical procedures."
             />
             <CredentialItem
               label="Published Researcher"
-              detail="Peer-reviewed publications in IEEE Access and MICCAI workshops. Research in medical image processing, image registration, deep learning, and AI in healthcare."
+              detail="Peer-reviewed publications in international journals and conferences. Research in medical image processing, image registration, deep learning, and AI in healthcare."
             />
             <CredentialItem
               label="Harvard Catalyst Training"
