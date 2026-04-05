@@ -6,10 +6,10 @@ import { routes } from "@/lib/routes";
 import Link from "next/link";
 
 const jumpLinks = [
-  ["Masters", "#masters"],
-  ["PhD", "#phd"],
-  ["Postdoc", "#postdoc"],
-  ["Packages", "#packages"],
+  ["Who it's for", "#who"],
+  ["Outcomes", "#outcomes"],
+  ["Pathways", "#pathways"],
+  ["Pricing", "#pricing"],
   ["Process", "#process"],
   ["FAQ", "#faq"],
 ] as const;
@@ -27,17 +27,17 @@ export function MentorshipHero() {
       <Container className="relative py-20 sm:py-24 lg:py-28">
         <div className="mx-auto max-w-3xl text-center">
           <BadgePill className="mx-auto border-indigo-200/80 bg-indigo-50/80 text-indigo-700">
-            Personalised study abroad mentorship
+            One-to-one study abroad mentorship
           </BadgePill>
           <h1 className="mt-6 font-serif text-4xl font-semibold leading-[1.05] tracking-tight text-balance text-zinc-900 sm:text-5xl lg:text-6xl">
-            Study abroad guidance for Masters, PhD & Postdoc
+            Your path to a funded programme abroad - built around fit, not guesswork
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-[1.75] text-zinc-700 sm:text-lg">
-            Personalised research mentorship and PhD application guidance for
-            Indian students - strategy, documents, and execution within clear
-            scope.{" "}
+            One-to-one mentorship for Indian students applying to Masters, PhD, and
+            Postdoc programmes in Europe and the USA. Strategy, documents, and
+            execution within defined scope -{" "}
             <span className="font-medium text-zinc-900">
-              Not group courses; not Academy.
+              directly from Dr Subhra.
             </span>
           </p>
           <div className="mt-9 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:justify-center">
