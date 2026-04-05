@@ -601,27 +601,6 @@ export default function MentorshipPage() {
         </Container>
       </Section>
 
-      {/* Trust / proof - testimonial placeholder */}
-      <Section className="border-b border-zinc-200 bg-zinc-50">
-        <Container className="py-16 sm:py-20 lg:py-24">
-          <SectionHeading
-            align="center"
-            eyebrow="Student outcomes"
-            title="Results from students who took the work seriously"
-            description="Outcome stories and testimonials will be added here as they are collected. If you have worked with Dr Subhra and would like to share your experience, please get in touch."
-            className="mx-auto"
-          />
-          <div className="mx-auto mt-10 max-w-xl rounded-xl border border-dashed border-zinc-300 bg-white px-8 py-10 text-center">
-            <p className="text-sm text-zinc-500">Outcome stories and testimonials - coming soon.</p>
-            <div className="mt-6">
-              <Button href={routes.contact} variant="secondary">
-                Share your experience
-              </Button>
-            </div>
-          </div>
-        </Container>
-      </Section>
-
       <MentorshipFaq items={mentorshipFaqItems} />
       <MentorshipCtaBand />
     </PageMain>
