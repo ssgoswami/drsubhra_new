@@ -82,7 +82,7 @@ export default function AboutPage() {
           <div className="grid items-center gap-12 lg:grid-cols-[1fr_auto]">
             <div className="max-w-2xl">
               <p className={ds.eyebrow}>About Dr Subhra Sundar</p>
-              <h1 className="mt-4 font-serif text-4xl font-semibold leading-[1.08] tracking-tight text-zinc-900 text-balance sm:text-5xl lg:text-6xl">
+              <h1 className="mt-4 font-serif text-3xl font-semibold leading-[1.08] tracking-tight text-zinc-900 sm:text-4xl lg:text-5xl">
                 I have navigated the path you are preparing for.
               </h1>
               <p className="mt-6 text-lg leading-[1.75] text-zinc-700 sm:text-xl">
