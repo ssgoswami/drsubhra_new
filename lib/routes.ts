@@ -5,6 +5,7 @@ export const routes = {
   home: "/",
   about: "/about",
   academy: "/academy",
+  workshops: "/academy/workshops",
   mentorship: "/mentorship",
   blog: "/blog",
   contact: "/contact",
@@ -16,8 +17,9 @@ export const routes = {
 export const mainNav = [
   { label: "Home", href: routes.home },
   { label: "About", href: routes.about },
-  { label: "Academy", href: routes.academy },
   { label: "Mentorship", href: routes.mentorship },
+  { label: "Workshops", href: routes.workshops },
+  { label: "Academy", href: routes.academy },
   { label: "Blog", href: routes.blog },
   { label: "Contact", href: routes.contact },
 ] as const;

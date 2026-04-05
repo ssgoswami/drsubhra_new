@@ -7,32 +7,25 @@ import { routes } from "@/lib/routes";
 
 const areas = [
   {
-    title: "Study Abroad Mentorship",
+    title: "1:1 Study Abroad Mentorship",
     description:
-      "Masters abroad mentorship, PhD application guidance, and Postdoc support - strategy, documents, and execution with clear scope and timelines.",
+      "Personalised, application-specific guidance for Masters, PhD, and Postdoc applicants. Strategy, documents, and execution within defined scope - directly from Dr Subhra.",
     href: routes.mentorship,
     cta: "View mentorship",
   },
   {
-    title: "Professional Courses",
+    title: "Workshops & Webinars",
     description:
-      "Academic courses and professional programmes in research, AI/ML, and image processing - designed to deepen skills and prepare you for the next step.",
+      "Monthly topic-focused webinars and multi-day cohort workshops for students at the orientation or preparation stage. Group formats - structured, live, and expert-led.",
+    href: routes.workshops,
+    cta: "View upcoming sessions",
+  },
+  {
+    title: "Academy",
+    description:
+      "Academic courses in research, AI/ML, and image processing. Mock tests, career guidance, and subject Q&A - built to scale with you.",
     href: routes.academy,
     cta: "Explore Academy",
-  },
-  {
-    title: "Mock Tests",
-    description:
-      "Structured practice for school and entrance exams - rigorous, feedback-oriented preparation.",
-    href: routes.academy,
-    cta: "Coming to Academy",
-  },
-  {
-    title: "Career Guidance",
-    description:
-      "Direction on pathways, programmes, and outcomes - so decisions are informed, not improvised.",
-    href: routes.academy,
-    cta: "Learn more",
   },
 ] as const;
 
@@ -41,11 +34,11 @@ export function HomeFocusAreas() {
     <Section id="focus-areas" className="border-b border-zinc-200/50 bg-zinc-50">
       <Container className="py-20 sm:py-24 lg:py-28">
         <SectionHeading
-          eyebrow="Focus areas"
-          title="Where I can support you"
-          description="Mentorship and Academy stay distinct - choose the path that matches your goal."
+          eyebrow="How to work with me"
+          title="Three ways to engage"
+          description="Three levels of engagement - choose the one that fits where you are right now."
         />
-        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+        <div className="mt-12 grid gap-6 sm:grid-cols-3">
           {areas.map((area) => (
             <PremiumCard
               key={area.title}

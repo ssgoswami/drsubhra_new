@@ -29,6 +29,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
     },
     {
+      url: url(routes.workshops),
+      priority: 0.8,
+      changeFrequency: "monthly",
+    },
+    {
       url: url(routes.about),
       priority: 0.8,
       changeFrequency: "monthly",

@@ -448,6 +448,29 @@ export default function MentorshipPage() {
         </Container>
       </Section>
 
+      {/* Not ready yet - Academy alternative */}
+      <Section className="border-b border-zinc-200 bg-white">
+        <Container className="py-12 sm:py-16">
+          <div className="mx-auto max-w-3xl rounded-2xl border border-teal-200/70 bg-teal-50/40 px-8 py-8">
+            <p className={ds.eyebrowAcademy}>Also within Academy</p>
+            <h2 className="mt-3 font-serif text-xl font-semibold leading-snug tracking-tight text-zinc-900 sm:text-2xl">
+              Not ready for 1:1 mentorship yet?
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-zinc-700 sm:text-base">
+              If you are at an earlier stage - still mapping your options, working on a specific gap, or not yet ready
+              to commit to individual application support - the Academy runs monthly topic-focused webinars and
+              multi-day cohort workshops. These group formats are designed for students at the orientation or
+              preparation stage, and they provide a clear path toward individual mentorship when the time is right.
+            </p>
+            <div className="mt-6">
+              <Button href={routes.workshops} variant="secondary">
+                View webinars and workshops
+              </Button>
+            </div>
+          </div>
+        </Container>
+      </Section>
+
       {/* Pricing */}
       <Section id="pricing" className="scroll-mt-24 border-b border-zinc-200 bg-white">
         <Container className="py-16 sm:py-20 lg:py-24">

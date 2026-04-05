@@ -6,6 +6,7 @@ import { routes } from "@/lib/routes";
 import Link from "next/link";
 
 const jumpLinks = [
+  ["Workshops", "/academy/workshops/"],
   ["Courses", "#courses"],
   ["Mock tests", "#mock-tests"],
   ["Career", "#career-guidance"],
