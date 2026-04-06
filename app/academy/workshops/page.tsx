@@ -54,23 +54,23 @@ const webinarTopics = [
 const workshopFormats = [
   {
     title: "SOP Writing Workshop",
-    body: "A structured three-day cohort focused entirely on writing, structuring, and refining the statement of purpose for Master's or PhD applications.",
-    tag: "3 days",
+    body: "A cohort of at least 8 days focused entirely on writing, structuring, and refining the statement of purpose for Master's or PhD applications.",
+    tag: "8+ days",
   },
   {
     title: "PhD Application Strategy Workshop",
-    body: "A multi-day cohort for students at the shortlisting, supervisor outreach, and research narrative stage.",
-    tag: "Multi-day",
+    body: "A cohort of at least 8 days for students at the shortlisting, supervisor outreach, and research narrative stage.",
+    tag: "8+ days",
   },
   {
     title: "Research Profile Development Workshop",
     body: "For students who want to understand what a competitive research profile looks like and how to build toward it before they apply.",
-    tag: "Multi-day",
+    tag: "8+ days",
   },
   {
     title: "Study Abroad Planning Workshop",
     body: "A structured programme for students early in planning - covering country selection, programme types, funding logic, and realistic timelines.",
-    tag: "2 days",
+    tag: "8+ days",
   },
 ];
 
@@ -88,7 +88,7 @@ const faqItems = [
   {
     question: "How are cohort workshops different from the webinars?",
     answer:
-      "Webinars are single sessions of 60 to 90 minutes, focused on one topic. Cohort workshops run over multiple days with a structured curriculum, tasks between sessions, and more interactive group work.",
+      "Webinars are single sessions of approximately 2 hours with a 1-hour live Q&A, focused on one topic. Cohort workshops run over at least 8 days with a structured curriculum, tasks between sessions, and more interactive group work.",
   },
   {
     question: "How large are the cohort groups?",
@@ -239,9 +239,10 @@ export default function WorkshopsPage() {
             <PremiumCard as="div" className="border-zinc-200/90">
               <p className={ds.eyebrowAcademy}>Webinars</p>
               <p className="mt-3 text-sm leading-relaxed text-zinc-700">
-                A webinar is a single live session - typically 60 to 90 minutes - focused on one
-                specific study abroad topic. The format is direct: Dr Subhra covers the topic clearly,
-                then takes questions from the group.
+                A webinar is a single live session - approximately 2 hours of structured content
+                followed by 1 hour of live Q&A - focused on one specific study abroad topic.
+                The format is direct: Dr Subhra covers the topic clearly, then takes questions from
+                the group.
               </p>
               <p className="mt-3 text-sm leading-relaxed text-zinc-700">
                 Webinars are good for students who want expert-led clarity on a question they have
@@ -250,7 +251,7 @@ export default function WorkshopsPage() {
               </p>
               <dl className="mt-5 grid grid-cols-2 gap-3 border-t border-zinc-100 pt-5 text-xs">
                 {[
-                  ["Duration", "60-90 minutes"],
+                  ["Duration", "2 hrs + 1 hr Q&A"],
                   ["Format", "Live, group"],
                   ["Interaction", "Q&A at end"],
                   ["Commitment", "Single session"],
@@ -266,8 +267,8 @@ export default function WorkshopsPage() {
             <PremiumCard as="div" className="border-teal-200/70 bg-gradient-to-b from-teal-50/30 to-white">
               <p className={ds.eyebrowAcademy}>Cohort Workshops</p>
               <p className="mt-3 text-sm leading-relaxed text-zinc-700">
-                A cohort workshop is a structured multi-day programme - typically two to four days -
-                run with a small group of students working on the same application challenge.
+                A cohort workshop is a structured programme of at least 8 days, run with a small
+                group of students working on the same application challenge.
               </p>
               <p className="mt-3 text-sm leading-relaxed text-zinc-700">
                 There is guided work, structured tasks between sessions, and space for interaction and
@@ -276,7 +277,7 @@ export default function WorkshopsPage() {
               </p>
               <dl className="mt-5 grid grid-cols-2 gap-3 border-t border-teal-100 pt-5 text-xs">
                 {[
-                  ["Duration", "2 to 4 days"],
+                  ["Duration", "At least 8 days"],
                   ["Format", "Small group, multi-session"],
                   ["Interaction", "Guided work + feedback"],
                   ["Commitment", "Fixed cohort dates"],
@@ -313,8 +314,8 @@ export default function WorkshopsPage() {
               <div className="mt-6 rounded-lg border border-zinc-200 bg-zinc-50 px-4 py-4">
                 <p className={`mb-2 ${ds.eyebrow}`}>Format</p>
                 <ul className="space-y-1.5 text-xs text-zinc-600">
-                  <li>60 to 90 minutes live</li>
-                  <li>Q&A at the end of each session</li>
+                  <li>Approximately 2 hours of structured content</li>
+                  <li>1 hour live Q&A at the end</li>
                   <li>Recordings shared with registered participants</li>
                   <li>Seats limited to keep Q&A focused</li>
                 </ul>
@@ -368,7 +369,7 @@ export default function WorkshopsPage() {
             <p className={`mb-3 ${ds.eyebrow}`}>All cohort workshops</p>
             <div className="grid gap-y-2 text-sm text-zinc-700 sm:grid-cols-2">
               {[
-                "2 to 4 days depending on workshop",
+                "At least 8 days per workshop",
                 "Small group - typically 6 to 15 participants",
                 "Structured curriculum with tasks between sessions",
                 "Group interaction and directional feedback",
@@ -503,7 +504,7 @@ export default function WorkshopsPage() {
                   ["Feedback", "Directional, group scope"],
                   ["Depth", "Structured curriculum"],
                   ["Best for", "Focused work on one area"],
-                  ["Commitment", "2-4 days"],
+                  ["Commitment", "At least 8 days"],
                 ],
               },
               {
