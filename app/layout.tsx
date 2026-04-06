@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lora, Inter } from "next/font/google";
 import { AppShell } from "@/components/layout/AppShell";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 import { GoogleAnalytics } from "@/components/seo/GoogleAnalytics";
 import { SiteJsonLd } from "@/components/seo/SiteJsonLd";
 import "./globals.css";
@@ -86,6 +87,7 @@ export default function RootLayout({
           Skip to main content
         </a>
         <AppShell>{children}</AppShell>
+        <WhatsAppButton />
       </body>
     </html>
   );
