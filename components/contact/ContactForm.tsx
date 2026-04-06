@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/Button";
 import { ds } from "@/lib/design-system";
 
 // Replace YOUR_FORM_ID with your actual Formspree (or other provider) endpoint.
-const FORM_ACTION = "https://formspree.io/f/YOUR_FORM_ID";
+const FORM_ACTION = "https://api.web3forms.com/submit";
 
 const enquiryOptions = [
   "General Enquiry",
@@ -34,8 +34,10 @@ export function ContactForm() {
         />
       </div>
 
-      {/* Hidden subject for Formspree */}
-      <input type="hidden" name="_subject" value="New enquiry from drsubhra.com" />
+      {/* Web3Forms access key */}
+      <input type="hidden" name="access_key" value="dda1fd2d-4bb0-47e4-84f1-dc14af2dcf69" />
+      <input type="hidden" name="subject" value="New enquiry from drsubhra.com" />
+      <input type="hidden" name="from_name" value="drsubhra.com Contact Form" />
 
       <div>
         <label htmlFor="contact-name" className={labelClass}>
