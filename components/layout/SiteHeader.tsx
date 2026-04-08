@@ -121,8 +121,10 @@ export function SiteHeader() {
           <span className="mx-1.5 h-4 w-px shrink-0 bg-zinc-200" aria-hidden />
 
           {/* Group 2: Offerings — bolder weight, accent hover */}
-          <NavLink href={routes.academy} label="Academy" accent="teal" />
           <NavLink href={routes.mentorship} label="Mentorship" accent="indigo" />
+          <NavLink href={routes.workshops} label="Workshops" accent="teal" />
+          <NavLink href={routes.academy} label="Academy" accent="teal" />
+          <NavLink href={routes.udayanpandit} label="Udayanpandit" />
 
           <span className="mx-1.5 h-4 w-px shrink-0 bg-zinc-200" aria-hidden />
 
@@ -194,8 +196,10 @@ export function SiteHeader() {
           <p className="mb-1 mt-3 px-3 text-[0.65rem] font-semibold uppercase tracking-[0.15em] text-zinc-400">
             Offerings
           </p>
-          <NavLink href={routes.academy} label="Academy" accent="teal" mobile onNavigate={close} />
           <NavLink href={routes.mentorship} label="Mentorship" accent="indigo" mobile onNavigate={close} />
+          <NavLink href={routes.workshops} label="Workshops" accent="teal" mobile onNavigate={close} />
+          <NavLink href={routes.academy} label="Academy" accent="teal" mobile onNavigate={close} />
+          <NavLink href={routes.udayanpandit} label="Udayanpandit" mobile onNavigate={close} />
 
           {/* Group 3: Explore */}
           <div className="my-2 border-t border-zinc-100" aria-hidden />
