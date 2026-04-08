@@ -39,6 +39,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
     },
     {
+      url: url(routes.udayanpandit),
+      priority: 0.7,
+      changeFrequency: "monthly",
+    },
+    {
       url: url(routes.blog),
       priority: 0.8,
       changeFrequency: "weekly",

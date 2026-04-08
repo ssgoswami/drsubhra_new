@@ -87,24 +87,10 @@ export const academyPillars = [
     icon: "book" as const,
   },
   {
-    id: "mock-tests",
-    hash: "#mock-tests",
-    title: "Mock Tests",
-    blurb: "School boards through national entrances—timed, honest practice.",
-    icon: "clipboard" as const,
-  },
-  {
     id: "career-guidance",
     hash: "#career-guidance",
     title: "Career Guidance",
     blurb: "Study abroad pathways, programmes, and career decisions - without the noise.",
     icon: "compass" as const,
-  },
-  {
-    id: "ask-question",
-    hash: "#ask-question",
-    title: "Ask a Question",
-    blurb: "Subject help for classes 6–12—structured, moderated Q&A.",
-    icon: "message" as const,
   },
 ] as const;

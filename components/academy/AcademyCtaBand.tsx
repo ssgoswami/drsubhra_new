@@ -9,7 +9,7 @@ export function AcademyCtaBand() {
       title="Ready to explore the Academy?"
       description={
         <>
-          Enquire to join waitlists, suggest a course or mock track, or get
+          Enquire to join waitlists, suggest a course topic, or get
           notified when new programmes open. For one-to-one study abroad
           mentoring, use{" "}
           <a

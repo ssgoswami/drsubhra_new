@@ -8,9 +8,7 @@ import Link from "next/link";
 const jumpLinks = [
   ["Workshops", "/academy/workshops/"],
   ["Courses", "#courses"],
-  ["Mock tests", "#mock-tests"],
-  ["Career", "#career-guidance"],
-  ["Ask", "#ask-question"],
+  ["Career guidance", "#career-guidance"],
 ] as const;
 
 export function AcademyHero() {
@@ -34,12 +32,11 @@ export function AcademyHero() {
             Dr Subhra Academy
           </BadgePill>
           <h1 className="mt-6 font-serif text-4xl font-semibold leading-[1.05] tracking-tight text-balance text-zinc-900 sm:text-5xl lg:text-6xl">
-            Academic courses, mock tests, and career guidance for STEM students
+            Academic courses and career guidance for serious STEM students
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-[1.75] text-zinc-700 sm:text-lg">
-            Academic courses in research, AI/ML, and image processing; structured
-            mock tests; career direction; and subject Q&amp;A - built to scale
-            with you.{" "}
+            Courses in research methodology, AI/ML, and image processing; career
+            direction for study abroad and research pathways - built to scale with you.{" "}
             <span className="font-medium text-zinc-900">
               Separate from one-to-one study abroad mentorship.
             </span>

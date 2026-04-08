@@ -9,13 +9,13 @@ export function AcademyPillars() {
     <Section className="border-b border-zinc-200 bg-white">
       <Container className="py-16 sm:py-20 lg:py-24">
         <p className="text-center text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-zinc-500">
-          Four pillars
+          What Academy offers
         </p>
         <p className="mx-auto mt-3 max-w-2xl text-center text-base leading-[1.75] text-zinc-600">
-          Academic courses, exam preparation, career guidance, and subject Q&A -
-          structured support for students at every stage.
+          Academic courses and career guidance - structured support for students
+          building toward research and professional pathways.
         </p>
-        <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="mt-10 grid gap-4 sm:grid-cols-2">
           {academyPillars.map((pillar) => (
             <li key={pillar.id}>
               <Link

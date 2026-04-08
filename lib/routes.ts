@@ -10,6 +10,7 @@ export const routes = {
   blog: "/blog",
   contact: "/contact",
   booking: "/mentorship/booking",
+  udayanpandit: "/udayanpandit",
   privacy: "/privacy",
   terms: "/terms",
 } as const;
@@ -20,6 +21,7 @@ export const mainNav = [
   { label: "Mentorship", href: routes.mentorship },
   { label: "Workshops", href: routes.workshops },
   { label: "Academy", href: routes.academy },
+  { label: "Udayanpandit", href: routes.udayanpandit },
   { label: "Blog", href: routes.blog },
   { label: "Contact", href: routes.contact },
 ] as const;
