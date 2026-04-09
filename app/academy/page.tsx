@@ -1,11 +1,8 @@
 import { PageMain } from "@/components/layout/PageMain";
-import { AcademyCareerPreview } from "@/components/academy/AcademyCareerPreview";
-import { AcademyCoursesSection } from "@/components/academy/AcademyCoursesSection";
 import { AcademyCtaBand } from "@/components/academy/AcademyCtaBand";
 import { AcademySectionBanner } from "@/components/academy/AcademySectionBanner";
 import { AcademyHero } from "@/components/academy/AcademyHero";
 import { AcademyPillars } from "@/components/academy/AcademyPillars";
-import { academyCourses } from "@/lib/content/academy";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -35,8 +32,6 @@ export default function AcademyPage() {
       <AcademySectionBanner />
       <AcademyHero />
       <AcademyPillars />
-      <AcademyCoursesSection courses={academyCourses} />
-      <AcademyCareerPreview />
       <AcademyCtaBand />
     </PageMain>
   );

@@ -10,10 +10,10 @@ import { Container } from "@/components/layout/Container";
 type Accent = "indigo" | "teal";
 
 const academyDropdownItems = [
-  { label: "Courses", href: `${routes.academy}#courses`, accent: "teal" as Accent },
+  { label: "Courses", href: routes.courses, accent: "teal" as Accent },
   { label: "Mentorship", href: routes.mentorship, accent: "indigo" as Accent },
   { label: "Workshops", href: routes.workshops, accent: "teal" as Accent },
-  { label: "Career Guidance", href: `${routes.academy}#career-guidance`, accent: undefined },
+  { label: "Career Guidance", href: routes.careerGuidance, accent: undefined },
 ] as const;
 
 function NavLink({

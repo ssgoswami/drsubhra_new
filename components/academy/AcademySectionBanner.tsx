@@ -8,7 +8,7 @@ export function AcademySectionBanner() {
       <Container className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 py-2.5 text-xs">
         <span className="flex items-center gap-2 text-[0.6875rem] font-semibold uppercase tracking-[0.12em] text-teal-800">
           <span className="h-1 w-1 rounded-full bg-teal-500" aria-hidden />
-          Academy - courses and career guidance
+          Dr Subhra Academy
         </span>
         <Link
           href={routes.mentorship}

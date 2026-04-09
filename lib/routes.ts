@@ -5,6 +5,8 @@ export const routes = {
   home: "/",
   about: "/about",
   academy: "/academy",
+  courses: "/academy/courses",
+  careerGuidance: "/academy/career-guidance",
   workshops: "/academy/workshops",
   mentorship: "/mentorship",
   blog: "/blog",

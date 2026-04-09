@@ -26,7 +26,7 @@ export function AcademyCtaBand() {
       <Button href={routes.contact} variant="onDark" className="w-full sm:w-auto">
         Join / explore
       </Button>
-      <Button href="#courses" variant="onDarkOutline" className="w-full sm:w-auto">
+      <Button href={routes.courses} variant="onDarkOutline" className="w-full sm:w-auto">
         Browse courses
       </Button>
       <Button href={routes.mentorship} variant="onDarkGhost" className="w-full sm:w-auto">

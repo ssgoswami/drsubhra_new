@@ -6,10 +6,10 @@ import { routes } from "@/lib/routes";
 import Link from "next/link";
 
 const jumpLinks = [
-  ["Courses", "#courses"],
+  ["Courses", "/academy/courses/"],
   ["Mentorship", "/mentorship"],
   ["Workshops", "/academy/workshops/"],
-  ["Career guidance", "#career-guidance"],
+  ["Career guidance", "/academy/career-guidance/"],
 ] as const;
 
 export function AcademyHero() {
@@ -43,7 +43,7 @@ export function AcademyHero() {
             </span>
           </p>
           <div className="mt-9 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:justify-center">
-            <Button href="#courses" variant="academyCta" className="w-full sm:w-auto">
+            <Button href="/academy/courses/" variant="academyCta" className="w-full sm:w-auto">
               Explore programmes
             </Button>
             <Button href={routes.contact} variant="secondary" className="w-full sm:w-auto">

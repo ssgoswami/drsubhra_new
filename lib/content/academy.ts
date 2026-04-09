@@ -81,7 +81,7 @@ export const academyMockTests: AcademyMockTest[] = [
 export const academyPillars = [
   {
     id: "courses",
-    hash: "#courses",
+    hash: "/academy/courses",
     title: "Courses",
     blurb: "Deep-dive academic courses in research methodology, imaging, and AI/ML.",
     icon: "book" as const,
@@ -102,7 +102,7 @@ export const academyPillars = [
   },
   {
     id: "career-guidance",
-    hash: "#career-guidance",
+    hash: "/academy/career-guidance",
     title: "Career Guidance",
     blurb: "Study abroad pathways, programmes, and career decisions - without the noise.",
     icon: "compass" as const,

@@ -32,7 +32,7 @@ export function AcademyPillars() {
                   {pillar.blurb}
                 </span>
                 <span className="mt-4 text-sm font-semibold text-teal-700 group-hover:underline">
-                  View section →
+                  Explore →
                 </span>
               </Link>
             </li>
