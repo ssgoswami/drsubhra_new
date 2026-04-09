@@ -87,6 +87,20 @@ export const academyPillars = [
     icon: "book" as const,
   },
   {
+    id: "mentorship",
+    hash: "/mentorship",
+    title: "Mentorship",
+    blurb: "One-to-one personalised guidance for Masters, PhD, and Postdoc applicants.",
+    icon: "message" as const,
+  },
+  {
+    id: "workshops",
+    hash: "/academy/workshops",
+    title: "Workshops",
+    blurb: "Monthly webinars and multi-day cohort workshops for study abroad preparation.",
+    icon: "clipboard" as const,
+  },
+  {
     id: "career-guidance",
     hash: "#career-guidance",
     title: "Career Guidance",

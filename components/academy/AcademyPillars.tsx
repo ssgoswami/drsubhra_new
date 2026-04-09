@@ -12,10 +12,10 @@ export function AcademyPillars() {
           What Academy offers
         </p>
         <p className="mx-auto mt-3 max-w-2xl text-center text-base leading-[1.75] text-zinc-600">
-          Academic courses and career guidance - structured support for students
-          building toward research and professional pathways.
+          Courses, mentorship, workshops, and career guidance - founder-led
+          educational offerings under one roof.
         </p>
-        <ul className="mt-10 grid gap-4 sm:grid-cols-2">
+        <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {academyPillars.map((pillar) => (
             <li key={pillar.id}>
               <Link
