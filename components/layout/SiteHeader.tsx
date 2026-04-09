@@ -122,7 +122,6 @@ export function SiteHeader() {
 
           {/* Group 2: Offerings — bolder weight, accent hover */}
           <NavLink href={routes.mentorship} label="Mentorship" accent="indigo" />
-          <NavLink href={routes.workshops} label="Workshops" accent="teal" />
           <NavLink href={routes.academy} label="Academy" accent="teal" />
           <NavLink href={routes.udayanpandit} label="Udayanpandit" />
 
@@ -197,7 +196,6 @@ export function SiteHeader() {
             Offerings
           </p>
           <NavLink href={routes.mentorship} label="Mentorship" accent="indigo" mobile onNavigate={close} />
-          <NavLink href={routes.workshops} label="Workshops" accent="teal" mobile onNavigate={close} />
           <NavLink href={routes.academy} label="Academy" accent="teal" mobile onNavigate={close} />
           <NavLink href={routes.udayanpandit} label="Udayanpandit" mobile onNavigate={close} />
 
