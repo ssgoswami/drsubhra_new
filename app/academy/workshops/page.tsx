@@ -53,8 +53,8 @@ const webinarTopics = [
 
 const workshopFormats = [
   {
-    title: "SOP Writing Workshop",
-    body: "A cohort of at least 8 days focused entirely on writing, structuring, and refining the statement of purpose for Master's or PhD applications.",
+    title: "Masters Application Strategy Workshop",
+    body: "A cohort of at least 8 days covering the full Masters application process - programme shortlisting, motivation letter, CV, and scholarship framing.",
     tag: "8+ days",
   },
   {
