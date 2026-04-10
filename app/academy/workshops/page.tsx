@@ -303,9 +303,30 @@ export default function WorkshopsPage() {
                 title="Live, topic-focused sessions"
                 description="Each month, Dr Subhra runs a live webinar on a topic relevant to study abroad and research pathways. Each session covers one area clearly - no padding, no generic advice."
               />
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center lg:flex-col lg:items-start">
-                <Button href={routes.contact} variant="academyCta">
-                  Register for the next webinar
+              <div className="mt-8 flex flex-col gap-3">
+                <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.14em] text-zinc-500">
+                  Register for a webinar
+                </p>
+                <Button
+                  href="https://forms.gle/1YmcdN3Hb3EmjzTQ7"
+                  external
+                  variant="academyCta"
+                >
+                  Masters Webinar →
+                </Button>
+                <Button
+                  href="https://forms.gle/UDCgfzjbfA1aXSES6"
+                  external
+                  variant="academyCta"
+                >
+                  PhD Webinar →
+                </Button>
+                <Button
+                  href="https://forms.gle/QZiaiXXvDWMMcZPFA"
+                  external
+                  variant="academyCta"
+                >
+                  Postdoc Webinar →
                 </Button>
                 <Button href={routes.contact} variant="secondary">
                   Join the mailing list
@@ -632,8 +653,8 @@ export default function WorkshopsPage() {
         description="Register for the next webinar to get oriented, or book a profile assessment when you are ready to move to individual mentorship."
         descriptionClassName="text-teal-100"
       >
-        <Button href={routes.contact} variant="onDark" className="w-full sm:w-auto">
-          Register for the next webinar
+        <Button href="#webinars" variant="onDark" className="w-full sm:w-auto">
+          Register for a webinar
         </Button>
         <Button href={routes.booking} variant="onDarkOutline" className="w-full sm:w-auto">
           Book a profile assessment
